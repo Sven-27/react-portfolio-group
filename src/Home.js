@@ -4,7 +4,10 @@ import './Home.css';
 function Home() {
     return (
         <div className="home">
-            <img src="https://i.pinimg.com/originals/c3/b5/b2/c3b5b235475ca1456fdbca4f0b89cabb.jpg" alt=""/>
+            <div className="home__content">
+            <img src="https://cdn.eso.org/images/thumb700x/airglow_ats_beletsky-CC.jpg" alt=""/>
+            <h1>My name is <span>Sven Notermans</span></h1>
+            </div>
         </div>
     )
 }
