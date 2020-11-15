@@ -1,0 +1,6 @@
+.home img{
+    width: 100vw;
+    height: 95vh;
+    object-fit: cover;
+    background-position: center;
+}

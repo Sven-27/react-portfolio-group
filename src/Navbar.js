@@ -14,6 +14,8 @@ function Navbar() {
                     <li><Link className="navbar__style" to='/contact'>Contact</Link></li>
                     <li><Link className="navbar__style" to='/skills'>Skills</Link></li>
                     <li><Link className="navbar__style" to='/about'>About</Link></li>
+                    <li><Link className="navbar__style" to='/blog'>Blog</Link></li>
+                    <li><Link className="navbar__style" to='/projects'>Projects</Link></li>
                 </ul>
             </div>
             
