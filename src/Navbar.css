@@ -15,14 +15,13 @@
 }
 
 .navbar__buttons ul{
-    margin: 0 !important;
+    margin: 0!important;
 }
 
 .navbar__buttons ul li{
     display: inline-block;
     margin: 5px;
   
-    
 }
 .navbar__style:link{
     text-decoration: none;
@@ -42,6 +41,8 @@
     color: yellow;
     background-color: rgba(244, 244, 242, 0.301);
     border-radius: 10px;
-    
-    
+}
+
+.navbar__style:link{
+    text-decoration: none;
 }

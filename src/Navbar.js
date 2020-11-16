@@ -14,6 +14,8 @@ function Navbar() {
                     <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/contact'>Contact</NavLink></li>
                     <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/skills'>Skills</NavLink></li>
                     <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/about'>About</NavLink></li>
+                    <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/blog'>Blog</NavLink></li>
+                    <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/projects'>Projects</NavLink></li>
                 </ul>
             </div>
             
