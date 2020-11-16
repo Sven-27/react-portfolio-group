@@ -7,7 +7,7 @@ function ContactForm() {
     <div>   
         <div classNameName="container">
             <h1 style={{paddingLeft: '15px'}}>Contact form</h1>
-            <form target="_blank" action="https://formsubmit.co/tommy_kelly@icloud.com" method="POST" className="col-sm-12 col-md-5 col-lg-5"  >
+            <form target="_blank" action="https://formsubmit.co/tommy_kelly@icloud.com" method="POST" className="m-auto col-sm-12 col-md-8 col-lg-5 m-lg-0"  >
                 <div className="form-group">
                     <div className="form-row">
                         <div className="col">
