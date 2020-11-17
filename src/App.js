@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Home from './Home';
 import ContactForm from './ContactForm'
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Typing from './Typing';
 function App() {
   return (
     <Router>
@@ -11,6 +12,7 @@ function App() {
     <Navbar />
       <Switch>
       <Route exact path="/" component={Home} />
+      <Route exact path="/skills" component={Typing}/>
       <Route exact path="/contact" component={ContactForm}/> 
       </Switch>
 
