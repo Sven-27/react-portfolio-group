@@ -46,3 +46,7 @@
 .navbar__style:link{
     text-decoration: none;
 }
+
+.moblie__button{
+    font-size: 2rem;
+}

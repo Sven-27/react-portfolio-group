@@ -3,3 +3,31 @@
     box-sizing: border-box;
     padding: 0;
   }
+
+  .moblie__button {
+    display: none;
+  }
+
+  @media screen and (max-width: 671px){
+    .navbar__buttons {
+     position: absolute;
+     top: 70px;
+     left: 0;
+     z-index: 10;
+     width: 100%;
+     text-align: center;
+     background-color: rgb(128,128,128);
+    }
+   
+    
+     .navbar__buttons.hide{
+      display: none;
+    }
+
+    .navbar__buttons ul li{
+      display: block !important;
+    }
+    .moblie__button{
+      display: inline-block;
+    }
+  }
