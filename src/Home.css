@@ -10,6 +10,20 @@
     height: 100vh;
 }
 
+.home__content .home__imageProfile{
+    background: url(images/sven-6.png);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+    position: absolute;
+    display: flex;
+    margin-bottom: 250px;
+
+}
+
 .home__content{
     width: 100%;
    height: auto;
@@ -23,10 +37,19 @@
   position: absolute;
  color: #fff;
  font-size: 4rem;
+ margin-top: 80px;
 }
 
 .home__content h1 span{
     font-size: 5rem;
     color: yellow;
     font-weight: 700;
+}
+
+.home__content p{
+    position: absolute;
+    margin-top: 220px;
+    max-width: 60%;
+    font-size:1.2rem;
+    color: #a7a6a6;
 }
