@@ -48,8 +48,24 @@
 
 .home__content p{
     position: absolute;
-    margin-top: 220px;
+    margin-top: 250px;
     max-width: 60%;
     font-size:1.2rem;
-    color: #a7a6a6;
+    color: rgba(245, 245, 245, 0.863);
+}
+
+.home__icons{
+    position: absolute;
+    width: 100%;
+    margin-top: 450px;
+    display: flex;
+    flex: 0.5;
+    justify-content: space-between;
+    max-width: 500px;;
+}
+
+.home__icons .MuiSvgIcon-root{
+    color: rgba(245, 245, 245, 0.863);
+    width: 3rem;
+    height: auto;
 }
