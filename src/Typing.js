@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import ReactTypingEffect from 'react-typing-effect';
 
 function Typing() {
@@ -8,6 +8,9 @@ function Typing() {
           <ReactTypingEffect
             text={["Developer.", "Free Lancer.", "Success Coach."]}
             cursorRenderer={cursor => <h1>{cursor}</h1>}
+            speed={250}
+            typingDelay={1000}
+            eraseSpeed={200}
             displayTextRenderer={(text, i) => {
               return (
                 
