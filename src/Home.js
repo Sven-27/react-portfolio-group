@@ -15,11 +15,11 @@ function Home() {
             <h1>I am <span>Sven Notermans</span></h1>
             <p>I am a pasionate programmer who loves to take on challenges.</p>
             <div className="home__icons">
-                <a href="https://github.com/Sven-27/react-portfolio-group" target="_blank"><GitHubIcon /></a>
-                <a href="https://www.linkedin.com/in/sven-notermans/" target="_blank"><LinkedInIcon /></a>
-                <a href="https://www.facebook.com/Svengebon" target="_blank"><FacebookIcon /></a>
-                <a href="https://www.instagram.com/svennie_27/" target="_blank"><InstagramIcon /></a>
-                <a href="https://twitter.com/Sven__27" target="_blank"><TwitterIcon /></a>
+                <a href="https://github.com/Sven-27/react-portfolio-group" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+                <a href="https://www.linkedin.com/in/sven-notermans" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+                <a href="https://www.facebook.com/Svengebon" target="_blank" rel="noreferrer"><FacebookIcon /></a>
+                <a href="https://www.instagram.com/svennie_27/" target="_blank" rel="noreferrer"><InstagramIcon /></a>
+                <a href="https://twitter.com/Sven__27" target="_blank" rel="noreferrer"><TwitterIcon /></a>
             </div>
             </div>
         </div>
