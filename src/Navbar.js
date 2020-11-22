@@ -2,8 +2,6 @@ import React, { useState }  from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom';
 
-
-
 function Navbar() {
 
     const [buttonState, setbuttonState] =  useState(true)
@@ -18,7 +16,7 @@ function Navbar() {
     return (
         <div className="navbar">
             <div className="navbar__logo">
-            <h1>Portfolio</h1>
+             <h1>Portfolio</h1> 
             </div>
             <div className={buttonState ? "navbar__buttons hide" : "navbar__buttons"}>
                 <ul>
