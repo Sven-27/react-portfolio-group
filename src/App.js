@@ -12,7 +12,7 @@ function App() {
     <Navbar />
       <Switch>
       <Route exact path="/" component={Home} />
-      <Route exact path="/skills" component={Typing}/>
+      
       <Route exact path="/contact" component={ContactForm}/> 
       </Switch>
 
