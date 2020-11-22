@@ -2,11 +2,12 @@ import React from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom';
 
+
 function Navbar() {
     return (
         <div className="navbar">
             <div className="navbar__logo">
-            <h1>Portfolio</h1>
+             <h1>Portfolio</h1> 
             </div>
             <div className="navbar__buttons">
                 <ul>
