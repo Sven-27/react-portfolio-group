@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
-import Footer from './Footer';
 import ContactForm from './ContactForm';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
