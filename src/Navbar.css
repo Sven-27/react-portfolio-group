@@ -35,6 +35,9 @@
     margin: 5px;
   
 }
+.navbar__style:link{
+    text-decoration: none;
+}
 
 .navbar__style{
     text-decoration: none;
@@ -54,4 +57,8 @@
 
 .navbar__style:link{
     text-decoration: none;
+}
+
+.moblie__button{
+    font-size: 2rem;
 }
