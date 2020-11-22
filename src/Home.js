@@ -5,6 +5,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import Typing from './Typing'
 
 function Home() {
     return (
@@ -21,6 +22,9 @@ function Home() {
                 <a href="https://www.instagram.com/svennie_27/" target="_blank" rel="noreferrer"><InstagramIcon /></a>
                 <a href="https://twitter.com/Sven__27" target="_blank" rel="noreferrer"><TwitterIcon /></a>
             </div>
+            {/* <div className="home__type">
+                <Typing className="type" />
+        	</div> */}
             </div>
         </div>
     )
