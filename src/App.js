@@ -9,26 +9,14 @@ function App() {
   return (
     <Router>
       <div className="app">
+    <Navbar />
+      <Switch>
+      <Route exact path="/" component={Home} />
+      <Route exact path="/contact" component={ContactForm}/> 
+      </Switch>
 
-        <Switch>
-
-          {/* The Contact page route. HAS to be on TOP of Home page DEFAULT!!*/}
-          <Route path="/contact" >
-            <Navbar />
-            <ContactForm />
-            <Footer />
-          </Route>
-
-          {/* The Home page route, the default */}
-          <Route path="/" >
-            <Navbar />
-            <Home />
-            <Footer />
-          </Route>
-
-        </Switch>
-
-      </div>
+   
+    </div>
     </Router>
   );
 }
