@@ -12,7 +12,6 @@ function Home() {
         <div className="home">
           <div className="home__content">
               <div className="home__imageProfile"></div>
-            <img src="https://cdn.eso.org/images/thumb700x/airglow_ats_beletsky-CC.jpg" alt=""/>
             <h1>I am <span>Sven Notermans</span></h1>
             <p>I am a pasionate programmer who loves to take on challenges.</p>
             <div className="home__icons">
