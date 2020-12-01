@@ -1,10 +1,15 @@
-import React from "react";
+import React, {Redirect} from "react";
 import "./About.css";
+// import {Route, Link} from 'react-router-dom'
+const Link = require('react-router-external').Link;
 
 function About() {
 	return (
 		<div className="about">
+			<div className="about__container">
+				<div className="about__img__container">
 			<div className="about__image"></div>
+			</div>
 			<div className="about__content">
 				<div className="about__me">
 					<h1>
@@ -36,18 +41,20 @@ function About() {
 					</div>
 					<div className="about__resume">
 						<a
-							href="./images/cv-rami.pdf"
+							href="https://drive.google.com/file/d/1BRtiFexIMVM8-IjfaSO69DfI2LIk424y/view?usp=sharing"
 							target="_blank"
+							rel="noreferrer"
 							className="about__botton"
 							class="btn btn-yellow btn-animate"
 							role="button"
 							aria-pressed="true"
 							download
 						>
-							<i className="fa fa-download"> </i>  Download Resume
-						</a>
+							<i className="fa fa-download"></i> Download Resume
+						</a> 
 					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	);
