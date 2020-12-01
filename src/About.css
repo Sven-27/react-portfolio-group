@@ -1,15 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 * {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-}
-=======
-/** {
-=======
-* {
->>>>>>> baac6f7e86cee9d00397058fbf0d4bfc6285af38
+
 	margin: 0;
 	box-sizing: border-box;
 	padding: 0;
@@ -119,4 +109,4 @@
 		transform: translateY(0px);
 	}
 }
->>>>>>> 8f097a89b21db38f237a161115bac1a960c98f3f
+

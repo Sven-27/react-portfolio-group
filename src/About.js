@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-import "./About.css";
-
-function About() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
-
-export default About
-=======
 import React from "react";
 import "./About.css";
 
@@ -68,4 +54,4 @@ function About() {
 }
 
 export default About;
->>>>>>> 8f097a89b21db38f237a161115bac1a960c98f3f
+
