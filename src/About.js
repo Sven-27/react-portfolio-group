@@ -58,7 +58,7 @@ function About() {
 							aria-pressed="true"
 							download
 						>
-							<i className="fa fa-download"> Download Resume</i>
+							<i className="fa fa-download"> </i>  Download Resume
 						</a>
 					</div>
 				</div>
