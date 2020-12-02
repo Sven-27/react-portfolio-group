@@ -6,18 +6,27 @@ function Footer() {
         <div className="footer">
 
             <div className="back__totop">
-                <a href='#top'><h4>Back to Top</h4></a>
+                {/* <a href='#top'><h4>Back to Top</h4></a> */}
             </div>
 
             <div className="footer__links__container">
 
                 <div className="links__container">
                     <h3 className="footer__links__head">Get to Know Team PFP</h3>
-                    <div>
-                        <a className="footer__links__nav" alt="" href="#">Sven</a>
-                        <a className="footer__links__nav" alt="" href="#">Tommy</a>
-                        <a className="footer__links__nav" alt="" href="#">Don</a>
-                        <a className="footer__links__nav" alt="" href="#">AJ</a>
+                    <div className="links_part1">
+                        <div>
+                            <a className="footer__links__nav" alt="" href="#">Sven</a>
+                            <a className="footer__links__nav" alt="" href="#">Ayesha</a>
+                            <a className="footer__links__nav" alt="" href="#">Rami</a>
+                            <a className="footer__links__nav" alt="" href="#">Joe</a>
+                        </div>
+                        <div>
+                            <a className="footer__links__nav" alt="" href="#">Tommy</a>
+                            <a className="footer__links__nav" alt="" href="#">Punitha</a>
+                            <a className="footer__links__nav" alt="" href="#">Don</a>
+                            <a className="footer__links__nav" alt="" href="#">Niro</a>
+                            <a className="footer__links__nav" alt="" href="#">AJ</a>
+                        </div>
                     </div>
                 </div>
 

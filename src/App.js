@@ -3,7 +3,11 @@ import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
 import Footer from './Footer';
+import Blog from './Blog'
+import Skills from "./Skills"
 import ContactForm from './ContactForm';
+import About from './About';
+import Projects from './Projects';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 function App() {
   return (
@@ -12,18 +16,51 @@ function App() {
 
         <Switch>
 
-          {/* The Contact page route. HAS to be on TOP of Home page DEFAULT!!*/}
-          <Route path="/contact" >
+          <Route exact path="/" >
+
+            <Navbar />
+            <Home />
+
+          </Route>
+
+          <Route exact path="/contact" >
+
             <Navbar />
             <ContactForm />
             <Footer />
+
           </Route>
 
-          {/* The Home page route, the default */}
-          <Route path="/" >
+          <Route exact path="/skills" >
+
             <Navbar />
-            <Home />
+            <Skills />
             <Footer />
+
+          </Route>
+
+          <Route exact path="/about" >
+
+            <Navbar />
+            <About />
+            <Footer />
+
+          </Route>
+
+          <Route exact path="/blog" >
+
+            <Navbar />
+            <Blog />
+            <Footer />
+
+          </Route>
+
+          <Route exact path="/projects" >
+
+            <Navbar />
+            <Projects />
+            <Footer />
+
           </Route>
 
         </Switch>
