@@ -2,15 +2,15 @@ import React from "react";
 import "./Projects.css";
 import ecom from "./images/ecom.jpg";
 import amazon from "./images/project-1.PNG";
+import netflix from "./images/netflix-clone.jpeg";
 
 function Projects() {
   return (
     <section className="projects__section">
       <div className="projects__main-container">
-        <h1>Check Out Some of My Works.</h1>
+        <h1>Check out some of my Works.</h1>
 
         <div className="projects__wrapper">
-          {/* starts */}
           <div className="projects__overlay">
             <div className="projects__post">
               <img
@@ -21,8 +21,7 @@ function Projects() {
               <div className="projects__preview">
                 <h6 className="projects__post-title">FireStack Amazon Clone</h6>
                 <p className="projects__intro">
-                  Amazon Clone built with Firebase (Authentication, Cloud
-                  Firestore, & Functions(express)) with Stripe Integration
+                  Amazon Clone built with Firebase and Stripe Integration
                 </p>
                 <a href="https://aclone.web.app" target="_blank">
                   Read More
@@ -30,7 +29,6 @@ function Projects() {
               </div>
             </div>
           </div>
-          {/* ends */}
 
           <div className="projects__overlay">
             <div className="projects__post">
@@ -55,17 +53,13 @@ function Projects() {
 
           <div className="projects__overlay">
             <div className="projects__post">
-              <img
-                className="thumbnail"
-                src="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
-                alt="logo"
-              />
+              <img className="thumbnail" src={netflix} alt="logo" />
               <div className="projects__preview">
-                <h6 className="projects__post-title">Project Title</h6>
+                <h6 className="projects__post-title">netflix-Clone</h6>
                 <p className="projects__intro">
-                  Here goes the any sentence that say about the projects
+                  Netflix clone build with React js and Firebase
                 </p>
-                <a href="#" target="_blank">
+                <a href="https://netflix-clone-acb05.web.app/" target="_blank">
                   Read More
                 </a>
               </div>
