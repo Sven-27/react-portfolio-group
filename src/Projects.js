@@ -10,7 +10,8 @@ function Projects() {
         <h1>Check Out Some of My Works.</h1>
 
         <div className="projects__wrapper">
-          <div className="overlay">
+          {/* starts */}
+          <div className="projects__overlay">
             <div className="projects__post">
               <img
                 className="thumbnail"
@@ -29,8 +30,9 @@ function Projects() {
               </div>
             </div>
           </div>
+          {/* ends */}
 
-          <div>
+          <div className="projects__overlay">
             <div className="projects__post">
               <img className="thumbnail" src={ecom} alt="logo" />
               <div className="projects__preview">
@@ -41,14 +43,17 @@ function Projects() {
                   WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS,
                   NodeJS)
                 </p>
-                <a href="https://www.youtube.com/watch?v=gzdQDxzW2Tw">
+                <a
+                  href="https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+                  target="_blank"
+                >
                   Read More
                 </a>
               </div>
             </div>
           </div>
 
-          <div>
+          <div className="projects__overlay">
             <div className="projects__post">
               <img
                 className="thumbnail"
@@ -60,7 +65,9 @@ function Projects() {
                 <p className="projects__intro">
                   Here goes the any sentence that say about the projects
                 </p>
-                <a href="#">Read More</a>
+                <a href="#" target="_blank">
+                  Read More
+                </a>
               </div>
             </div>
           </div>

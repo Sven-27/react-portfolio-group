@@ -4,13 +4,6 @@
   overflow: auto;
 }
 
-/* .projects__main-container {
-  width: 1200px;
-   margin: 0 auto;
-  overflow-x: hidden; 
-} 
-*/
-
 h1,
 h6,
 strong {
@@ -88,7 +81,7 @@ a {
   }
 }
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .column,
   .columns {
     width: auto !important;
@@ -97,4 +90,4 @@ a {
     margin-right: 0;
     padding: 0 30px;
   }
-}
+} */
