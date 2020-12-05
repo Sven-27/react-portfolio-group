@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import ecom from "./images/ecom.jpg";
+import facebook from "./images/facebook-clone.png";
 import amazon from "./images/project-1.PNG";
 import netflix from "./images/netflix-clone.jpeg";
 
@@ -23,7 +23,11 @@ function Projects() {
                 <p className="projects__intro">
                   Amazon Clone built with Firebase and Stripe Integration
                 </p>
-                <a href="https://aclone.web.app" target="_blank">
+                <a
+                  href="https://aclone.web.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Read More
                 </a>
               </div>
@@ -32,18 +36,18 @@ function Projects() {
 
           <div className="projects__overlay">
             <div className="projects__post">
-              <img className="thumbnail" src={ecom} alt="logo" />
+              <img className="thumbnail" src={facebook} alt="facebook" />
               <div className="projects__preview">
                 <h6 className="projects__post-title">
-                  MERN Stack WhatsApp Clone
+                  Facebook Clone with React
                 </h6>
                 <p className="projects__intro">
-                  WhatsApp Clone built with MERN (MongoDB, ExpressJS, ReactJS,
-                  NodeJS)
+                  Facebook Clone built with ReactJS and Redux
                 </p>
                 <a
-                  href="https://www.youtube.com/watch?v=gzdQDxzW2Tw"
+                  href="https://www.youtube.com/watch?v=B-kxUMHBxNo"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Read More
                 </a>
@@ -59,7 +63,11 @@ function Projects() {
                 <p className="projects__intro">
                   Netflix clone build with React js and Firebase
                 </p>
-                <a href="https://netflix-clone-acb05.web.app/" target="_blank">
+                <a
+                  href="https://netflix-clone-acb05.web.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Read More
                 </a>
               </div>
