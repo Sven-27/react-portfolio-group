@@ -15,9 +15,9 @@ function App() {
   return (
     <Router>
       <div className="app">
-    <Navbar />
+        <Navbar />
 
-      <Switch>
+        <Switch>
 
 
           <Route exact path="/" >
@@ -70,15 +70,6 @@ function App() {
         </Switch>
 
       </div>
-
-      <Route exact path="/" component={Home} />
-      <Route exact path="/contact" component={ContactForm}/> 
-      <Route exact path="/skills" component={Skills} />
-      <Route exact path="/blog" component={Blog} />
-      </Switch>
-
-   
-    </div>
 
     </Router>
   );

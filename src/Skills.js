@@ -23,25 +23,6 @@ function Skills() {
     </div>
   )
 
-    const skillsData= [
-        {
-          name: 'ReactJS',
-          level: 100,
-          color: 'blue',
-        },
-        {
-          name: 'SomeOtherTech',
-          level: 85,
-          color: 'red',
-        }
-      ]
-      
-    return (
-        <div>
-            <SkillBars skills={skillsData} />
-        </div>
-    )
-
 }
 
 export default Skills
