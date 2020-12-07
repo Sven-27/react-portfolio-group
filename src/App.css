@@ -20,6 +20,7 @@
      padding: 0 !important;
     }
 
+
    .navbar__active {
       display: inline-block !important;
       width: 90% !important;
@@ -39,8 +40,10 @@
       display: block !important;
     }
 
+
     .moblie__button{
       display: inline-block;
     }
     
+
   }
