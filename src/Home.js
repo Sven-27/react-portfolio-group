@@ -7,6 +7,9 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import Typing from './Typing'
 
+//live share test  
+// Here is another comment.
+
 function Home() {
     return (
         <div className="home">
