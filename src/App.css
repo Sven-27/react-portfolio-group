@@ -19,6 +19,8 @@
      background-color: rgb(128,128,128);
      padding: 0 !important;
     }
+
+
    .navbar__active {
       display: inline-block !important;
       width: 90% !important;
@@ -37,7 +39,11 @@
     .navbar__buttons ul li{
       display: block !important;
     }
+
+
     .moblie__button{
       display: inline-block;
     }
+    
+
   }
