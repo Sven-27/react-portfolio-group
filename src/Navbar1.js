@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import './Navbar.css'
+import './Navbar1.css'
 import { NavLink } from 'react-router-dom';
 
-function Navbar() {
+function Navbar1() {
 
     const [buttonState, setbuttonState] = useState(true)
 
@@ -14,7 +14,7 @@ function Navbar() {
     }
 
     return (
-        <div className="navbar navbar_solidColor">
+        <div className="navbar navbar_transparent">
             <div className="navbar__logo">
 
             </div>
@@ -38,4 +38,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navbar1

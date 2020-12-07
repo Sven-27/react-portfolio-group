@@ -1,9 +1,9 @@
-.navbar.navbar_solidColor{
+.navbar.navbar_transparent{
     
     display: flex;
     margin-bottom: 100px;
     justify-content: space-between;
-    background-color: #808080;
+    background-color: transparent;
     align-items: center;
     color: #fff;
     position: fixed;
@@ -21,7 +21,6 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: yellow;
 }
-
 
 .navbar__buttons{
     padding-right: 20px;
