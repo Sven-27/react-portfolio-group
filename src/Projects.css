@@ -7,32 +7,32 @@
 }
 
 .projects__main-container {
-  height: 74.5vh;
+  height: 63.3vh;
 }
 
-h1,
+/*👉h1,
 h6,
 strong {
   color: black;
-  /*👉font-family: "Russo One", sans-serif;
-  font-weight: 500;👈*/
-}
+  font-family: "Russo One", sans-serif;
+  font-weight: 500;
+}👈*/
 
-h1 {
+.projects__main-container h1 {
   text-align: center;
   margin-top: 120px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
 }
 
-p {
+/*👉p {
   color: #4b5156;
   font-family: "Roboto Mono", monospace;
-}
+}👈*/
 
-a {
+/*👉a {
   text-decoration: none;
   color: #17a2b8;
-}
+}👈*/
 
 .projects__wrapper {
   display: grid;

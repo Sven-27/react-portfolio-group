@@ -8,7 +8,7 @@ function Projects() {
   return (
     <section className="projects__section">
       <div className="projects__main-container">
-        <h1>Check out some of my Works.</h1>
+        <h1>Check out some of my Projects.</h1>
 
         <div className="projects__wrapper">
           <div className="projects__overlay">
