@@ -1,11 +1,12 @@
 Todo:
 
-1 Create navbar done
-2 Create Home page Sven
-3 Skills Joe
-4 Blog Don
-5 About Rami
-6 Contact Tommy
-7 Footer AJ
-8 Do we need section for projects
-9 Testimonials
+Components:
+1 Navbar done
+2 Home page made by Sven
+3 Skills made by Joe
+4 Blog made by Don
+5 About made by Rami
+6 Contact made by Tommy
+7 Footer made by AJ
+8 Projects made by Ayesha
+9 Testimonials made by Punitha

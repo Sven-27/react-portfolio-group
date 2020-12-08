@@ -1,0 +1,54 @@
+
+.body {
+   padding-top:5rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   padding-bottom: 3rem;
+   min-height: 74.5vh;
+}
+
+.subtext {
+   
+  padding: 140px;
+ position: relative;
+ padding-top: 40px;
+ padding-left: 40px;
+ padding-bottom: 50px;
+  border-radius: 60px; 
+  color: rgb(202, 202, 209);
+  border: 30px solid white;
+  background-color: rgb(65, 22, 61);
+
+
+}
+
+.subtext > h1 {
+   font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.subtext > text{
+   padding-bottom: 1110px;
+   padding-right: 10px;
+   
+   
+}
+.subtext > h3 {
+   
+   font-size: 20px;
+}
+
+header {
+   font-size: 70px;
+   justify-content: center;
+   display: flex;
+
+   
+}
+
+.body::-webkit-scrollbar {
+   display: none;
+ }
+
+
+

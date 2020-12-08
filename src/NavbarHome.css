@@ -1,13 +1,8 @@
-.navbar{
-    
+.navbar.navbar__home{
     display: flex;
     margin-bottom: 100px;
     justify-content: space-between;
-
-  
-
     background-color: transparent;
-
     align-items: center;
     color: #fff;
     position: fixed;

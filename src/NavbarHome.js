@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import './Navbar.css';
+import './NavbarHome.css';
 import { NavLink } from 'react-router-dom';
 
-function Navbar() {
-
+function NavbarHome() {
 
     const [buttonState, setbuttonState] = useState(true)
 
@@ -15,7 +14,7 @@ function Navbar() {
     }
 
     return (
-        <div className="navbar">
+        <div className="navbar navbar__home">
             <div className="navbar__logo">
 
             </div>
@@ -33,9 +32,6 @@ function Navbar() {
 
 
             </div>
-            <div className="moblie__button" onClick={() => setbuttonState(!buttonState)}>
-                {buttonState ? <i class="fa fa-bars" aria-hidden="true"></i> : <i class="fa fa-times" aria-hidden="true"></i>}
-            </div>
 
             <div className="moblie__button" onClick={() => setbuttonState(!buttonState)}>
                 {buttonState ? <i class="fa fa-bars" aria-hidden="true"></i> : <i class="fa fa-times" aria-hidden="true"></i>}
@@ -44,7 +40,6 @@ function Navbar() {
         </div>
 
     )
-
 }
 
-export default Navbar;
+export default NavbarHome
