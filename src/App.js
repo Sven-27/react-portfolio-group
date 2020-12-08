@@ -2,17 +2,19 @@ import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
-
 import Footer from './Footer';
-
 import Blog from './Blog'
 import Skills from "./Skills"
 import ContactForm from './ContactForm';
 import About from './About';
 import Projects from './Projects';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 function App() {
+  // const [resumeData, setResumeData] = useState({});
+
   return (
+
     <Router>
       <div className="app">
         <Navbar />
@@ -72,6 +74,7 @@ function App() {
       </div>
 
     </Router>
+
   );
 }
 
