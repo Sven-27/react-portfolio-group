@@ -15,7 +15,7 @@ function Navbar() {
     }
 
     return (
-        <div className="navbar">
+        <div className="navbar navbar__pages">
             <div className="navbar__logo">
 
             </div>
@@ -32,9 +32,6 @@ function Navbar() {
                 </ul>
 
 
-            </div>
-            <div className="moblie__button" onClick={() => setbuttonState(!buttonState)}>
-                {buttonState ? <i class="fa fa-bars" aria-hidden="true"></i> : <i class="fa fa-times" aria-hidden="true"></i>}
             </div>
 
             <div className="moblie__button" onClick={() => setbuttonState(!buttonState)}>

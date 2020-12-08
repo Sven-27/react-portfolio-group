@@ -1,10 +1,9 @@
 import React from 'react';
 import './App.css';
+import NavbarHome from './NavbarHome';
 import Navbar from './Navbar';
 import Home from './Home';
-
 import Footer from './Footer';
-
 import Blog from './Blog'
 import Skills from "./Skills"
 import ContactForm from './ContactForm';
@@ -15,14 +14,12 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <Navbar />
 
         <Switch>
 
-
           <Route exact path="/" >
 
-            <Navbar />
+            <NavbarHome />
             <Home />
 
           </Route>
