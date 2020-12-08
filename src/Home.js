@@ -1,4 +1,3 @@
-
 import React from 'react'
 import './Home.css';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -34,3 +33,4 @@ function Home() {
 }
 
 export default Home
+

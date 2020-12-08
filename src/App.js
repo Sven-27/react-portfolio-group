@@ -10,8 +10,12 @@ import ContactForm from './ContactForm';
 import About from './About';
 import Projects from './Projects';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
 function App() {
+  // const [resumeData, setResumeData] = useState({});
+
   return (
+
     <Router>
       <div className="app">
 
@@ -69,6 +73,7 @@ function App() {
       </div>
 
     </Router>
+
   );
 }
 
