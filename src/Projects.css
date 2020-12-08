@@ -3,19 +3,24 @@
   background-color: #eaeaea;
   border-bottom: 1px solid #c1c1c1;
   overflow: auto;
+  
+}
+
+.projects__main-container {
+  height: 74.5vh;
 }
 
 h1,
 h6,
 strong {
   color: black;
-  font-family: "Russo One", sans-serif;
-  font-weight: 500;
+  /*👉font-family: "Russo One", sans-serif;
+  font-weight: 500;👈*/
 }
 
 h1 {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 120px;
   margin-bottom: 20px;
 }
 
@@ -80,25 +85,5 @@ a {
   .projects__wrapper {
     margin-bottom: 40px;
   }
-}
-
-/* @media only screen and (max-width: 767px) {
-  .column,
-  .columns {
-    width: auto !important;
-    float: none;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0 30px;
-  }
-} */
-
-.projects__container {
-    /* padding-top: 120px; */
-    padding-top: 9rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 3rem;
-    height: 74.5vh;
 }
 
