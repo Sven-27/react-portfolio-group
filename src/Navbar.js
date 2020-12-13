@@ -27,7 +27,7 @@ function Navbar() {
                     <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/about' onClick={hideMobileMenu}>About</NavLink></li>
                     <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/blog' onClick={hideMobileMenu}>Blog</NavLink></li>
                     <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/projects' onClick={hideMobileMenu}>Projects</NavLink></li>
-
+                    <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/testimonial' onClick={hideMobileMenu}>Testimonial</NavLink></li>
                 </ul>
                 
             </div>
