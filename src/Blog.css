@@ -1,4 +1,12 @@
 
+.body {
+   padding-top:5rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
+   padding-bottom: 3rem;
+   min-height: 74.5vh;
+}
+
 .subtext {
    
   padding: 140px;
@@ -11,6 +19,7 @@
   border: 30px solid white;
   background-color: rgb(65, 22, 61);
 
+
 }
 
 .subtext > h1 {
@@ -19,7 +28,7 @@
 }
 
 .subtext > text{
-   padding-bottom: 1110px;
+   /* padding-bottom: 1110px; */
    padding-right: 10px;
    
    

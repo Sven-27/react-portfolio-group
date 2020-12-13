@@ -1,9 +1,21 @@
+
 import React, {Redirect} from "react";
+
+import React from 'react'
+
+import './About.css'
+
+function About() {
+    return (
+        <div className="about__container">
+
+
 import "./About.css";
 // import {Route, Link} from 'react-router-dom'
 const Link = require('react-router-external').Link;
 
 function About() {
+
 	return (
 		<div className="about">
 			<div className="about__container">
@@ -58,6 +70,14 @@ function About() {
 			</div>
 		</div>
 	);
+
+    return (
+        <div>
+            
+
+        </div>
+    )
+
 }
 
 export default About;
