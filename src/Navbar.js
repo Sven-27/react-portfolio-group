@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 
 function Navbar() {
 
-
+    const location = useLocation();
     const [buttonState, setbuttonState] = useState(true)
+
+   
+      
 
     const hideMobileMenu = () => {
         if (window.innerWidth < 672) {
@@ -15,7 +18,7 @@ function Navbar() {
     }
 
     return (
-        <div className="navbar navbar__pages">
+        <div className={location.pathname === '/' || location.pathname ==='/about' ? "navbar__home" : "navbar"} >
             <div className="navbar__logo">
 
             </div>

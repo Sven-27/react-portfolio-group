@@ -21,7 +21,7 @@ function Projects() {
               <div className="projects__preview">
                 <h6 className="projects__post-title">FireStack Amazon Clone</h6>
                 <p className="projects__intro">
-                  Amazon Clone built with Firebase and Stripe Integration
+                  Amazon Clone built with Firebase and Stripe
                 </p>
                 <a
                   href="https://aclone.web.app"

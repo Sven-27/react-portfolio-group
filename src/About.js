@@ -1,8 +1,5 @@
 
-import React, {Redirect} from "react";
-
-import React from 'react'
-
+import React from "react";
 import './About.css'
 
 function About() {
@@ -56,7 +53,7 @@ function About() {
 						</a> 
 					</div>
 				</div>
-			</div>
+		     	</div>
 			</div>
 		</div>
 	);

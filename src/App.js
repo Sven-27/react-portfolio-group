@@ -8,6 +8,7 @@ import Blog from "./Blog";
 import Skills from "./Skills";
 import ContactForm from "./ContactForm";
 import About from "./About";
+import Projects from './Projects'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
@@ -17,11 +18,12 @@ function App() {
 			<div className="app">
 				<Navbar />
 				<Switch>
-					<Route exact path="/" component={Home} />
+					 <Route exact path="/" component={Home} /> 
 					<Route exact path="/contact" component={ContactForm} />
 					<Route exact path="/skills" component={Skills} />
 					<Route exact path="/blog" component={Blog} />
-					<Route exact path="/About" component={About} />
+					<Route exact path="/about" component={About} />
+					<Route exact path="/projects" component={Projects} />
 				</Switch>
 
         <Footer /> 

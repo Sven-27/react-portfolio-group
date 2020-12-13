@@ -42,6 +42,11 @@ strong {
   padding-bottom: 50px;
 }
 
+.projects__overlay{
+  height: 320px;
+  width: 320px;
+}
+
 .projects__post {
   border: 1px solid #c1c1c1;
   -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
