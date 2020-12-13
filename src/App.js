@@ -19,6 +19,7 @@ function App() {
     <Router>
       <div className="app">
 
+
         <Switch>
 
           <Route exact path="/" >
@@ -70,6 +71,21 @@ function App() {
 
         </Switch>
 
+      </div>
+
+
+        <Navbar />
+
+          <Switch>
+
+          <Route exact path="/" component={Home} />
+          <Route exact path="/contact" component={ContactForm}/> 
+          <Route exact path="/skills" component={Skills} />
+          <Route exact path="/blog" component={Blog} />
+          </Switch>
+
+          <Footer />
+   
       </div>
 
     </Router>

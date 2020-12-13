@@ -8,6 +8,11 @@
     display: none;
   }
 
+  .app {
+    position: relative;
+    min-height: 100vh;
+  }
+
   @media screen and (max-width: 671px){
     .navbar__buttons {
      position: absolute;
