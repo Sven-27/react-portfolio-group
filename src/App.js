@@ -7,6 +7,7 @@ import Blog from './Blog'
 import Skills from "./Skills"
 import ContactForm from './ContactForm';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Testimonial from './Testimonial';
 function App() {
   return (
     <Router>
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/contact" component={ContactForm}/> 
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/blog" component={Blog} />
+          <Route exact path="/testimonial" component={Testimonial} />
           </Switch>
 
           <Footer />
