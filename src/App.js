@@ -18,62 +18,6 @@ function App() {
 
     <Router>
       <div className="app">
-
-
-        <Switch>
-
-          <Route exact path="/" >
-
-            <NavbarHome />
-            <Home />
-
-          </Route>
-
-          <Route exact path="/contact" >
-
-            <Navbar />
-            <ContactForm />
-            <Footer />
-
-          </Route>
-
-          <Route exact path="/skills" >
-
-            <Navbar />
-            <Skills />
-            <Footer />
-
-          </Route>
-
-          <Route exact path="/about" >
-
-            <Navbar />
-            <About />
-            <Footer />
-
-          </Route>
-
-          <Route exact path="/blog" >
-
-            <Navbar />
-            <Blog />
-            <Footer />
-
-          </Route>
-
-          <Route exact path="/projects" >
-
-            <Navbar />
-            <Projects />
-            <Footer />
-
-          </Route>
-
-        </Switch>
-
-      </div>
-
-
         <Navbar />
 
           <Switch>
@@ -86,7 +30,7 @@ function App() {
 
           <Footer />
    
-      </div>
+          </div>
 
     </Router>
 

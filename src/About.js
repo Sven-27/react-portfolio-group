@@ -4,17 +4,7 @@ import './About.css'
 
 function About() {
     return (
-        <div className="about__container">
-
-
-import "./About.css";
-
-function About() {
-    return (
-        <div>
-            
-
-        </div>
+        <div className="about__container"></div>
     )
 }
 
