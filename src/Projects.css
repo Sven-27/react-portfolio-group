@@ -7,16 +7,9 @@
 }
 
 .projects__main-container {
-  height: 63.3vh;
+  /* height: 63.3vh; */
 }
 
-/*👉h1,
-h6,
-strong {
-  color: black;
-  font-family: "Russo One", sans-serif;
-  font-weight: 500;
-}👈*/
 
 .projects__main-container h1 {
   text-align: center;

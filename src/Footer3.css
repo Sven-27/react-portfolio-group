@@ -1,0 +1,144 @@
+.footer3 {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    bottom: 0px;
+    margin-top: 2px;
+    color: lightgrey;
+    /* background-color: #232f3e; */
+    background-color: #808080;
+}
+
+
+.back__totop {
+    /* height: 40px; */
+    line-height: 40px;
+    /* line-height: 40px; */
+    text-align: center;
+    font-size: 13px;
+    /* background-color: #37475a; */
+    background-color: #808080;
+}
+
+
+.back__totop a {
+    color: lightgrey;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.footer3__links__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    /* padding-top: 50px ; */
+    padding-bottom: 8px ;
+    padding-top: 15px ;
+    color: lightgrey;
+    /* background-color: #232f3e; */
+    background-color: #808080;
+}
+
+
+.footer3__links__container {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.footer3__aboutLinks__container {
+    display: flex;
+    flex-direction: column;
+    /* width: 33%; */
+    align-items: center;
+}
+
+.footer3__links__head {
+    /* display: flex; */
+    /* justify-content: center; */
+    color: lightgrey;
+    /* background-color: #232f3e; */
+    background-color: #808080;
+    font-size: 26px;
+    padding-top: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 8px;
+}
+
+.footer3__links {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.footer3__links a {
+    margin: 1em;
+}
+
+.footer3__contact__container {
+    /* width: 34%; */
+    min-width: 300px;
+
+}
+
+.footer3__about__container {
+    padding-right: 5em;
+}
+
+.footer3__links__nav {
+    /* display: flex; */
+    /* justify-content: center; */
+    color: lightgrey;
+    /* background-color: #232f3e; */
+    background-color: #808080;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 3em;
+    padding-top: 8px;
+}
+
+
+.footer3__logo__container {
+    border-top: thin solid lightgray hsl(213, 24%, 28%);
+}
+
+
+.footer3__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #232f3e; */
+    background-color: #808080;
+    padding: 10px;
+}
+
+
+
+.footer3__icons {
+    width: 100%;
+    display: flex;
+    flex: 0.5;
+    justify-content: flex-end;
+    max-width: 500px;
+    
+    /* margin-top: 80px; */
+}
+
+.footer3__icons a {
+    margin-left: .5em;
+}
+
+.footer3__icons .MuiSvgIcon-root {
+    color: rgba(245, 245, 245, 0.863);
+    width: 1em;
+    height: auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer3__icons .MuiSvgIcon-root:hover {
+    color: yellow;
+    transform: scale(1.1);
+}
