@@ -1,1 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
+.testimonial {
+  font-family: "Oswald", sans-serif;
+  height: 100vh; /*Testimonial conainer takes up the browser length*/
+  background-color: #262e31;
+  color: #c5cdd0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+.testimonial::-webkit-scrollbar {
+  display: none;
+}
+.testimonial__title {
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.testimonial__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #323b40;
+  border-radius: 10px;
+  width: 50%;
+}
+.testimonial__container p {
+  color: #acb3b9;
+  text-align: center;
+  width: 120%;
+}
+.testimonial__container > h5 {
+  color: #8a939c;
+}
+.testimonial__container p > span {
+  color: #596269;
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+}
