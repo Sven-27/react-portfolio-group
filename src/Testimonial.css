@@ -21,10 +21,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   background-color: #323b40;
   border-radius: 10px;
   width: 50%;
+}
+.testimonial__container > img {
+  border-radius: 50%;
+  height: 75px;
+  margin-top: -20px;
 }
 .testimonial__container p {
   color: #acb3b9;
@@ -38,5 +43,9 @@
   color: #596269;
   display: flex;
   justify-content: center;
-  font-size: 3em;
+  font-size: 4em;
+}
+hr {
+  width: 50%;
+  border: 1px solid #4a5358;
 }
