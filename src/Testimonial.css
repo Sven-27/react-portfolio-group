@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+.testimonial {
+  font-family: "Oswald", sans-serif;
+  height: 100vh; /*Testimonial conainer takes up the browser length*/
+  background-color: #262e31;
+  color: #c5cdd0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("https://images.unsplash.com/photo-1464639351491-a172c2aa2911?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80") !important;
+  background-size: cover !important;
+}
+.testimonial__title {
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.testimonial__container {
+  margin: 30px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  background-color: #323b40;
+  border-radius: 10px;
+  width: 50%;
+}
+.testimonial__container > img {
+  border-radius: 50%;
+  width: 100px !important;
+  margin-top: -20px;
+}
+.testimonial__container p {
+  color: #acb3b9;
+  text-align: center;
+  width: 120%;
+}
+.testimonial__container > h5 {
+  color: #8a939c;
+}
+.testimonial__container p > span {
+  color: #596269;
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+}
+hr {
+  width: 50%;
+  border: 1px solid #4a5358;
+}
+li.slide {
+  display: flex;
+  align-items: center;
+}
+.carousel .slide {
+  background: none !important;
+}
