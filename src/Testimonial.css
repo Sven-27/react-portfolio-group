@@ -27,7 +27,7 @@
 }
 .testimonial__container > img {
   border-radius: 50%;
-  width: 25% !important;
+  width: 100px !important;
   margin-top: -20px;
 }
 .testimonial__container p {
