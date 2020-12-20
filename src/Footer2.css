@@ -1,0 +1,139 @@
+.footer2 {
+    bottom: 0px;
+    margin-top: 2px;
+    color: lightgrey;
+    background-color: #808080;
+    display: flex;
+    /* width: 60%; */
+    justify-content: center;
+    align-items: center;
+}
+
+.back__totop {
+    line-height: 40px;
+    text-align: center;
+    font-size: 13px;
+    background-color: #808080;
+}
+
+.back__totop a {
+    color: lightgrey;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.links_part1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer2__links__container {
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 8px ;
+    padding-top: 25px ;
+    color: lightgrey;
+    background-color: #808080;
+}
+
+.footer2_mediaIcons__container {
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    display: flex;
+    /* width: 60%; */
+    justify-content: center;
+    align-items: center;
+}
+
+.footer2__icons {
+    width: 100%;
+    display: flex;
+    flex: 0.5;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    /* max-width: 900px; */
+    /* margin-top: 80px; */
+}
+
+.footer2__icons .MuiSvgIcon-root {
+    color: rgba(245, 245, 245, 0.863);
+    width: 3rem;
+    height: auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.footer2__icons .MuiSvgIcon-root:hover {
+    /* color: #ffffff; */
+    color: yellow;
+    transform: scale(1.1);
+}
+
+.footer2__links__head {
+    display: flex;
+    justify-content: center;
+    color: lightgrey;
+    background-color: #808080;
+    font-size: 16px;
+    padding-top: 36px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 8px;
+    
+}
+
+.links__container {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.footer2__links__nav {
+    display: flex;
+    justify-content: center;
+    color: lightgrey;
+    background-color: #808080;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 8px;
+    
+}
+
+.footer2__logo__container {
+    border-top: thin solid lightgray #37475a;
+}
+
+.footer2_links__button_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer2_buttons {
+    margin: 1em;
+}
+
+.footer2__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #808080;
+    padding: 10px;
+}
+
+.footer2_copyright__container {
+    margin: 0;
+    padding: 0;
+}
+
+.footer2__copyright__head {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: lightgrey;
+    background-color: #808080;
+    font-size: 12px;
+}

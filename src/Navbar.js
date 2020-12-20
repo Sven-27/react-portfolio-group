@@ -1,20 +1,24 @@
-import React, { useState }  from 'react'
-import './Navbar.css'
-import { NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
+import './Navbar.css';
+import { NavLink, useLocation } from 'react-router-dom';
 
 function Navbar() {
 
-    const [buttonState, setbuttonState] =  useState(true)
+    const location = useLocation();
+    const [buttonState, setbuttonState] = useState(true)
 
-    const hideMobileMenu = () =>{
-        if (window.innerWidth < 672){
+   
+      
+
+    const hideMobileMenu = () => {
+        if (window.innerWidth < 672) {
             setbuttonState(true)
-            
+
         }
     }
 
     return (
-        <div className="navbar">
+        <div className={location.pathname === '/' || location.pathname ==='/about' ? "navbar__home" : "navbar"} >
             <div className="navbar__logo">
 
             </div>
@@ -29,13 +33,18 @@ function Navbar() {
                     <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/projects' onClick={hideMobileMenu}>Projects</NavLink></li>
                     <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/testimonial' onClick={hideMobileMenu}>Testimonial</NavLink></li>
                 </ul>
-                
+
+
             </div>
-            <div className="moblie__button" onClick={() => setbuttonState(!buttonState)}> 
+
+            <div className="moblie__button" onClick={() => setbuttonState(!buttonState)}>
                 {buttonState ? <i class="fa fa-bars" aria-hidden="true"></i> : <i class="fa fa-times" aria-hidden="true"></i>}
-                </div>
+            </div>
+
         </div>
+
     )
+
 }
 
-export default Navbar
+export default Navbar;

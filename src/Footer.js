@@ -6,23 +6,25 @@ function Footer() {
         <div className="footer">
 
             <div className="back__totop">
-                
+                {/* <a href='#top'><h4>Back to Top</h4></a> */}
             </div>
 
             <div className="footer__links__container">
 
                 <div className="links__container">
-                    <h3 className="footer__links__head">Get to Know Team PFP</h3>
-                    <div>
-                        <a className="footer__links__nav" alt="" href="#">Sven</a>
-                        <a className="footer__links__nav" alt="" href="#">Tommy</a>
-                        <a className="footer__links__nav" alt="" href="#">Rami</a>
-                        <a className="footer__links__nav" alt="" href="#">AJ</a>
+                    <h3 className="footer__links__head">Links</h3>
+                    <div className="links_part1">
+                        <div>
+                            <a className="footer__links__nav" alt="" href="#">Home</a>
+                            <a className="footer__links__nav" alt="" href="#">Contact</a>
+                            <a className="footer__links__nav" alt="" href="#">Projects</a>
+                            <a className="footer__links__nav" alt="" href="#">Blog</a>
+                        </div>
                     </div>
                 </div>
 
                 <div className="links__container">
-                    <h3 className="footer__links__head">Learn From Us</h3>
+                    <h3 className="footer__links__head">Learn From Me</h3>
                     <a className="footer__links__nav" alt="" href="#">Consulting</a>
                     <a className="footer__links__nav" alt="" href="#">Coaching</a>
                     <a className="footer__links__nav" alt="" href="#">Freelance Projects</a>
@@ -30,7 +32,7 @@ function Footer() {
                 </div>
 
                 <div className="links__container">
-                    <h3 className="footer__links__head">Our Favorite Resources</h3>
+                    <h3 className="footer__links__head">My Favorite Resources</h3>
                     <a className="footer__links__nav" alt="" href="#">VS Code</a>
                     <a className="footer__links__nav" alt="" href="#">ReactJS</a>
                     <a className="footer__links__nav" alt="" href="#">Font Awesome</a>
@@ -38,8 +40,8 @@ function Footer() {
                 </div>
 
                 <div className="links__container">
-                    <h3 className="footer__links__head">Let Us Help You</h3>
-                    <a className="footer__links__nav" alt="" href="#">Contact Us</a>
+                    <h3 className="footer__links__head">Let Me Help You</h3>
+                    <a className="footer__links__nav" alt="" href="#">Contact Me</a>
                     <a className="footer__links__nav" alt="" href="#">Your Account</a>
                     <a className="footer__links__nav" alt="" href="#">Your Orders</a>
                     <a className="footer__links__nav" alt="" href="#">Rates & Policies</a>
