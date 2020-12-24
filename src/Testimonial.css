@@ -28,7 +28,10 @@
 .testimonial__container > img {
   border-radius: 50%;
   width: 100px !important;
+  height: 100px;
   margin-top: -20px;
+  object-fit: cover;
+  object-position: 0 0;
 }
 .testimonial__container p {
   color: #acb3b9;
