@@ -13,10 +13,11 @@ function Testimonial() {
           infiniteLoop
           useKeyboardArrows
           showThumbs={false}
+          showStatus={false}
         >
           <div className="testimonial__container">
             <img
-              src="https://clementjames.org/wp-content/uploads/2019/09/avatar-1577909_960_720-1.png"
+              src="https://images.unsplash.com/photo-1554727242-741c14fa561c?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80"
               alt="Customer Image"
             />
             <p>
@@ -31,7 +32,7 @@ function Testimonial() {
           </div>
           <div className="testimonial__container">
             <img
-              src="https://clementjames.org/wp-content/uploads/2019/09/avatar-1577909_960_720-1.png"
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
               alt="Customer Image"
             />
             <p>
@@ -46,7 +47,7 @@ function Testimonial() {
           </div>
           <div className="testimonial__container">
             <img
-              src="https://clementjames.org/wp-content/uploads/2019/09/avatar-1577909_960_720-1.png"
+              src="https://images.unsplash.com/photo-1504257432389-52343af06ae3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=334&q=80"
               alt="Customer Image"
             />
             <p>
