@@ -9,7 +9,7 @@ function Testimonial() {
       <h1 className="testimonial__title">What do our customers say...</h1>
       <div className="testimonial-carousal-wrapper">
         <Carousel
-          autoPlay={true}
+          autoPlay={false}
           infiniteLoop
           useKeyboardArrows
           showThumbs={false}

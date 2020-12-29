@@ -23,10 +23,7 @@ function App() {
           <Route exact path="/contact" component={ContactForm} />
           <Route exact path="/skills" component={Skills} />
           <Route exact path="/blog" component={Blog} />
-
           <Route exact path="/testimonial" component={Testimonial} />
-          </Switch>
-
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
         </Switch>
@@ -34,7 +31,7 @@ function App() {
 
         {/* <Footer /> */}
         <Footer2 />
-        {/*<Footer3 /> */}
+      {/* <Footer3 />   */}
       </div>
 
     </Router>

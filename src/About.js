@@ -7,24 +7,25 @@ function About() {
 		<div className="about">
 			<div className="about__container">
 				<div className="about__img__container">
-			<div className="about__image"></div>
-			</div>
-			<div className="about__content">
-				<div className="about__me">
+		     	<div className="about__image"></div>
+			   </div>
+		    	<div className="about__content">
+			    	<div className="about__me">
 					<h1>
 						<span>About me </span>
 					</h1>
-					<p>
-						<b>Front end developer, leergierig.</b>
-						<br />
+						<h4><b>Front end developer.</b></h4>
+						
+						<p>
 						Met veel plezier heb ik een sterk fundament gelegd om als front end
 						developer van toegevoegde waarde te zijn in het bedrijfsleven, en
 						kijk ik ernaar uit om mij verder te ontwikkelen tot full stack
 						developer.
-					</p>
-				</div>
-				<div className="about__info">
-					<div className="about__address">
+						</p>
+				
+			    	</div>
+			     	<div className="about__info">
+					  <div className="about__address">
 						<h4>Contact details</h4>
 						<span>
 							Rami David
@@ -37,8 +38,8 @@ function About() {
 							<br />
 							ramidavid@hollandisok.nl
 						</span>
-					</div>
-					<div className="about__resume">
+				    	</div>
+				    	<div className="about__resume">
 						<a
 							href="https://drive.google.com/file/d/1BRtiFexIMVM8-IjfaSO69DfI2LIk424y/view?usp=sharing"
 							target="_blank"
@@ -52,7 +53,7 @@ function About() {
 							<i className="fa fa-download"></i> Download Resume
 						</a> 
 					</div>
-				</div>
+				  </div>
 		     	</div>
 			</div>
 		</div>

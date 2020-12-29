@@ -5,6 +5,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import { Link } from 'react-router-dom'
 
 function Footer2() {
 
@@ -38,7 +39,8 @@ function Footer2() {
                     </div>
 
                     <div className="footer2_buttons">
-                        <button className="btn btn-lg btn-dark btn-block" onClick={event => window.location.href = '/contact'}>Contact Me About Your Project!</button>
+                        {/* <button className="btn btn-lg btn-dark btn-block" onClick={event => window.location.href = '/contact'}>Contact Me About Your Project!</button> */}
+                   <Link className="nav-link" to='/contact' />
                     </div>
                 </div>
 

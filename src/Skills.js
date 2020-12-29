@@ -8,7 +8,7 @@ function Skills() {
 
   const levelProgress = false;
 
-  const duration = 10;
+  const duration = 5;
 
   const labelWidth = 250;
 
@@ -29,6 +29,7 @@ function Skills() {
   ]
 
   return (
+    <div className="skills">
     <div className="skills__container d-flex flex-column align-items-center justify-content-center">
 
       <div className="skillBars__container ">
@@ -45,7 +46,7 @@ function Skills() {
         />
 
       </div>
-
+      </div>
     </div>
   )
 

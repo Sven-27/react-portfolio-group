@@ -16,15 +16,11 @@ function Navbar() {
 
         }
     }
-
+    // {location.pathname === '/' || location.pathname ==='/about' || location.pathname ==='/contact' ? "navbar__home" : "navbar" 
     return (
-        <div className={location.pathname === '/' || location.pathname ==='/about' ? "navbar__home" : "navbar"} >
-            <div className="navbar__logo">
-
-            </div>
+        <div className="navbar__home" >
             <div className={buttonState ? "navbar__buttons hide" : "navbar__buttons"}>
                 <ul>
-
                     <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/' onClick={hideMobileMenu}>Home</NavLink></li>
                     <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/contact' onClick={hideMobileMenu}>Contact</NavLink></li>
                     <li><NavLink className="navbar__style" activeClassName="navbar__active" exact to='/skills' onClick={hideMobileMenu}>Skills</NavLink></li>

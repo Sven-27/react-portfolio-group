@@ -3,8 +3,9 @@ import './ContactForm.css'
 
 function ContactForm() {
     return (
-
+        <div className="contactForm">
         <div className="container d-flex flex-column align-items-center justify-content-center mt-6">
+            
             <h1>Contact form</h1>
 
             <form target="_blank" action="https://formsubmit.co/tommy_kelly@icloud.com" method="POST" className="m-auto col-sm-12 col-md-8 col-lg-5 m-lg-0"  >
@@ -26,7 +27,7 @@ function ContactForm() {
         </div>
 
 
-
+        </div>
     )
 }
 

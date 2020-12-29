@@ -73,32 +73,7 @@ function Projects() {
               </div>
             </div>
           </div>
-          {/* 
-          <div>
-            <div className="projects__post">
-              <img className="thumbnail" src={ecom} alt="logo" />
-              <div className="projects__preview">
-                <h6 className="projects__post-title"> Post Title</h6>
-                <p className="projects__intro">
-                  Here goes the any sentence that say about the projects
-                </p>
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div> */}
-
-          {/* <div>
-            <div className="projects__post">
-              <img className="thumbnail" src={ecom} alt="logo" />
-              <div className="projects__preview">
-                <h6 className="projects__post-title"> Post Title</h6>
-                <p className="projects__intro">
-                  Here goes the any sentence that say about the projects
-                </p>
-                <a href="#">Read More</a>
-              </div>
-            </div>
-          </div> */}
+        
         </div>
       </div>
     </section>

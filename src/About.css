@@ -25,6 +25,13 @@ display: flex;
 align-items: center;
 }
 
+@media(max-width: 768px){
+	.about__container{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 .about__container .about__image {
 	background: url(images/rami.jpg);
 	min-width: 200px;
@@ -35,6 +42,14 @@ align-items: center;
 	object-fit: contain;
 }
 
+@media(max-width: 768px){
+	.about__container .about__image{
+		min-width: 100px;
+		min-height: 100px;
+		margin-bottom: 20px;
+	}
+}
+
 .about__content {
 	flex: .5; 
 	background-size: cover;
@@ -42,8 +57,24 @@ align-items: center;
 	color: rgb(209, 209, 47);
 }
 
+@media(max-width: 768px){
+	.about__me > h1, .about__me > h4{
+		text-align: center;
+		display: flex;
+		flex-direction: column ;
+		align-items: center;
+	}
+}
+
+@media(max-width: 768px){
+	.about__me > p{
+		text-align: center;
+	}
+}
+
 .about__info{
 	display: flex;
+	text-align: center;
 }
 
 .about__resume{
@@ -52,6 +83,19 @@ align-items: center;
 	justify-content: center;
 	align-items: flex-end;
 } 
+
+@media(max-width: 768px){
+	.about__info{
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media(max-width: 768px){
+	.about__info .about__address{
+		margin-bottom: 20px;
+	}
+}
 
 .about__resume > a{
 	display: flex;
@@ -73,7 +117,7 @@ align-items: center;
 	transition: all 0.3s ease-in-out;
 } 
 
- .btn:hover {
+ .about__resume .btn:hover {
 	background-color: rgb(209, 209, 47);
 	color: rgb(53, 52, 52);
 	 transform: translateY(-5px);
@@ -85,21 +129,4 @@ align-items: center;
 	color: rgb(209, 209, 47);
 }
 
-
-
-.about__container {
-    /* padding-top: 120px; */
-    padding-top: 9rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 3rem;
-    height: 74.5vh;
-}
-
-* {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-
-}
 

@@ -111,9 +111,16 @@
     justify-content: center;
 }
 
+.nav-link{
+    border: 1px solid black;
+    background-color: white;
+    color: yellow;
+}
+
 .footer2_buttons {
     margin: 1em;
 }
+
 
 .footer2__logo {
     display: block;
