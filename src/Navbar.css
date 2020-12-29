@@ -62,7 +62,14 @@
     text-decoration: none;
 }
 
-.moblie__button i{
+.moblie__button{
+    width: 100%;
     font-size: 2rem;
-    margin-right: 30px;
 }
+
+.moblie__button .fa{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
