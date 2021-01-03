@@ -30,10 +30,10 @@
   font-family: "Roboto Mono", monospace;
 }👈*/
 
-a {
+.projects__preview a {
   text-decoration: none;
   color: yellow;
-}
+} 
 
 a:hover{
   text-decoration: none;

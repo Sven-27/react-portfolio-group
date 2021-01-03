@@ -3,9 +3,12 @@
     box-sizing: border-box;
     padding: 0;
   }
+  html {
+    scroll-behavior: smooth;
+  }
 
-  .moblie__button {
-    display: none;
+  .mobile__button{
+    visibility: hidden;
   }
 
   .app {
@@ -14,7 +17,7 @@
   }
 
   @media screen and (max-width: 671px){
-    .navbar__buttons {
+    .home__buttons {
      position: absolute;
      top: 70px;
      left: 0;
@@ -23,32 +26,42 @@
      text-align: center;
      background-color: rgb(128,128,128);
      padding: 0 !important;
+   
     }
+  
+  ul{
+    display: flex;
+    flex-direction: column;
+    width: 10
+  }
 
 
-   .navbar__active {
+   .home__active {
       display: inline-block !important;
       width: 90% !important;
       
     }
 
-    .navbar__style {
+    .home__style {
       display: inline-block;
       width: 80%;
     }
     
-     .navbar__buttons.hide{
+     .home__buttons.hide{
       display: none;
     }
 
-    .navbar__buttons ul li{
+    .home__buttons ul li{
       display: block !important;
     }
 
-
-    .moblie__button{
-      display: inline-block;
+    .mobile__button {
+      visibility: visible;
+      position: absolute;
+      right: 20px;
     }
     
+  } 
+    
 
-  }
+ 

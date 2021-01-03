@@ -117,7 +117,7 @@ align-items: center;
 	transition: all 0.3s ease-in-out;
 } 
 
- .about__resume .btn:hover {
+ .about__resume > .btn:hover {
 	background-color: rgb(209, 209, 47);
 	color: rgb(53, 52, 52);
 	 transform: translateY(-5px);

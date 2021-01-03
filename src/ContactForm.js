@@ -8,7 +8,7 @@ function ContactForm() {
             
             <h1>Contact form</h1>
 
-            <form target="_blank" action="https://formsubmit.co/tommy_kelly@icloud.com" method="POST" className="m-auto col-sm-12 col-md-8 col-lg-5 m-lg-0"  >
+            <form target="_blank" action="https://formsubmit.co/coding.with.sven@gmail.com" method="POST" className="m-auto col-sm-12 col-md-8 col-lg-5 m-lg-0"  >
                 <div className="form-group">
                     <div className="form-row">
                         <div className="col">
