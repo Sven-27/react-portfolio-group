@@ -38,7 +38,6 @@
     }
 }
 
-
 .home__content {
     display: flex;
     flex-direction: column;
@@ -48,7 +47,7 @@
 }
 
 .home__content h1 {
-    color: #fff;
+    color: #abb2b9;
     font-size: 4rem;
     margin-top: 20px;
 }
@@ -56,18 +55,18 @@
 .home__content h1 span {
     max-width: 60%;
     font-size: 5rem;
-    color: yellow;
+    color: #fff;
     font-weight: 700;
     text-align: center;
 }
 
-
-
 .home__content p {
     text-align: center;
     max-width: 70%;
-    font-size: 1.2rem;
-    color: rgba(245, 245, 245, 0.863);
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: #abb2b9;
     padding-top: 10px;
 }
 
@@ -81,20 +80,17 @@
 }
 
 .home__icons .MuiSvgIcon-root {
-    color: rgba(245, 245, 245, 0.863);
+    color: #f5f5f5dc;
     width: 3rem;
     height: auto;
     transition: all 0.2s ease-in-out;
 }
 
 .home__icons .MuiSvgIcon-root:hover {
-    color: yellow;
+    color: #abb2b9;
     transform: scale(1.2);
 }
 
-/* .home__type{
-    position: absolute;
-} */
 .home__container {
     display: flex;
     margin-bottom: 100px;
@@ -123,9 +119,19 @@
 }
 
 .home__home a {
+    padding: 0 10px;
     font-size: 14px;
-    color: #fff;
+    font-weight: 700;
+    color: #808b96;
     display: flex;  
+}
+
+.home__home  a:hover {
+    color: #abb2b9;
+}
+
+.home__home .active{
+    color: #abb2b9;
 }
 
 .home__buttons {
@@ -140,29 +146,6 @@
     display: inline-block;
     margin: 5px;
 
-}
-
-.home__style:link {
-    text-decoration: none;
-}
-
-.home__style {
-    text-decoration: none;
-    color: #fff;
-    padding: 8px;
-}
-
-.home__style:hover {
-    color: yellow;
-}
-
-.home__home .active{
-    color: yellow;
-}
-
-
-.home__style:link {
-    text-decoration: none;
 }
 
 @media(max-width: 768px) {

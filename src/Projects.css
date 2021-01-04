@@ -1,20 +1,15 @@
 
 .projects__section {
-  background: url("https://images.unsplash.com/photo-1476445704028-a36e0c798192?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDV8fGNvbG9yJTIwYmFja2dyb3VuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
-  /* background-color: #eaeaea; */
-  background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    object-fit: contain;
-    width: 100%;
-    height: 100vh;
+  background-color: #e5e7e9;
+  width: 100%;
+  height: 100vh;
   overflow: auto;
   z-index: 3;
   
 }
 
 .projects__main-container {
-  /* height: 63.3vh; */
+  margin-top: 60px;
 }
 
 
@@ -24,11 +19,6 @@
   margin-bottom: 60px;
   color: white;
 }
-
-/*👉p {
-  color: #4b5156;
-  font-family: "Roboto Mono", monospace;
-}👈*/
 
 .projects__preview a {
   text-decoration: none;
@@ -55,6 +45,7 @@ a:hover{
 
 
 .projects__post {
+  margin-top: 60px;
   border: 1px solid #c1c1c1;
   -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);

@@ -2,99 +2,76 @@
 
 .about {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	/* background-color: rgb(77, 75, 75); */
-	background-image: url("https://images.unsplash.com/photo-1529300772465-c6d777ba65d2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjc0fHxncmF5fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	object-fit: contain;
+	align-items: center;
+	background-color: #e5e7e9;
 	width: 100%;
-	height: 100vh;
-}
-
-.about__img__container{
-	flex: .3;
-	display: flex;
-	justify-content: center;
-	
-}
-.about__container{
-display: flex;
-align-items: center;
-}
-
-@media(max-width: 768px){
-	.about__container{
-		display: flex;
-		flex-direction: column;
-	}
-}
-
-.about__container .about__image {
-	background: url(images/rami.jpg);
-	min-width: 200px;
-    min-height: 200px;
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center;
-	object-fit: contain;
-}
-
-@media(max-width: 768px){
-	.about__container .about__image{
-		min-width: 100px;
-		min-height: 100px;
-		margin-bottom: 20px;
-	}
+	height: 50vh;
+	border-bottom: 1px dotted #909497;
 }
 
 .about__content {
-	flex: .5; 
-	background-size: cover;
-	background-position: center;
-	color: rgb(209, 209, 47);
+	width: 100%;
+	color: #909497;
 }
 
-@media(max-width: 768px){
-	.about__me > h1, .about__me > h4{
-		text-align: center;
+.about__details{
+	display: flex;
+	/* align-items: center; */
+}
+
+@media (max-width: 768px){
+	.about__details{
 		display: flex;
-		flex-direction: column ;
+		flex-direction: column;
 		align-items: center;
 	}
 }
 
-@media(max-width: 768px){
-	.about__me > p{
-		text-align: center;
-	}
+/* .about__me > h1{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+} */
+
+.about__text{
+	/* margin: auto; */
+	width: 100%;
+	flex: .5;
 }
 
-.about__info{
+.about__text > h4, .about__address > h4{
 	display: flex;
+	justify-content: center;
+	font-weight: 700;
+} 
+
+.about__text > p{
+	display: flex;
+	justify-content: center;
+	margin: 20px 50px;
 	text-align: center;
 }
 
-.about__resume{
-	width: 100%;
+.about__address > span{
 	display: flex;
 	justify-content: center;
-	align-items: flex-end;
-} 
+	text-align: center;
+}
 
-@media(max-width: 768px){
+.about__info{
+	flex: 0.5;
+}
+
+@media (max-width: 768px){
 	.about__info{
-		display: flex;
-		flex-direction: column;
+		margin-top: 50px;
 	}
 }
 
-@media(max-width: 768px){
-	.about__info .about__address{
-		margin-bottom: 20px;
-	}
+.about__resume{
+	display: flex;
+	justify-content: center;
 }
 
 .about__resume > a{
@@ -108,25 +85,17 @@ align-items: center;
 	margin-right: 10px;
 }
 
- .btn:link,
-.btn:visited {
-	text-transform: uppercase;
-	text-decoration: none;
-	padding: 15px 40px;
-	border-radius: 100px;
-	transition: all 0.3s ease-in-out;
-} 
-
  .about__resume > .btn:hover {
-	background-color: rgb(209, 209, 47);
-	color: rgb(53, 52, 52);
-	 transform: translateY(-5px);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+	background-color: rgba(255, 255, 255, 0.705) !important;
+	color: #353434;
+	border: 1px solid #353434;
 }
 
-.btn-yellow {
-	background-color: rgb(53, 52, 52);
-	color: rgb(209, 209, 47);
+.btn-color {
+	background-color: #353434;
+	color: #fff;
 }
+
+
 
 

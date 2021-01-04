@@ -33,11 +33,11 @@ function Home() {
             <div className={buttonState ? "home__buttons hide" : "home__buttons"}> 
             <ul onClick={hideMobileMenu}>
                     <li onClick={() => setActiveState("home")}><a className={activeState === 'home' ? 'home__home active' : 'home__home'} href='#home'>Home</a></li>
-                     <li onClick={() => setActiveState("about")}><a className={activeState === 'about' ? ' active' : 'home__home'} href='#about'  >About</a></li>
+                    <li onClick={() => setActiveState("about")}><a className={activeState === 'about' ? 'home__home active' : 'home__home'} href='#about'  >About</a></li>
                     <li onClick={() => setActiveState("projects")}><a className={activeState === 'projects' ? 'home__home active' : 'home__home'} href='#projects' >Projects</a></li>
                     <li onClick={() => setActiveState("skills")}><a className={activeState === 'skills' ? 'home__home active' : 'home__home'} href='#skills'  >Skills</a></li>
                     <li onClick={() => setActiveState("testimonial")}><a className={activeState === 'testimonial' ? 'home__home active' : 'home__home'} href='#testimonial'  >Testimonial</a></li>
-                     <li onClick={() => setActiveState("contact")}><a className={activeState === 'contact' ? 'home__home active' : 'home__home'} href='#contact'>Contact</a></li>
+                    <li onClick={() => setActiveState("contact")}><a className={activeState === 'contact' ? 'home__home active' : 'home__home'} href='#contact'>Contact</a></li>
                     <li onClick={() => setActiveState("footer")}><a className={activeState === 'footer' ? 'home__home active' : 'home__home'} href='#footer' >Footer</a></li>
                  </ul>
                  </div>
@@ -50,7 +50,7 @@ function Home() {
             <div className="home__content">
                 <div className="home__imageProfile"></div>
                 <h1>I am <span>Sven Notermans</span></h1>
-                <p>I am a pasionate programmer who loves to take on challenges.</p>
+                <p>Fullstack Developer</p>
                 <div className="home__icons">
                     <a href="https://github.com/Sven-27/react-portfolio-group" target="_blank" rel="noreferrer"><GitHubIcon /></a>
                     <a href="https://www.linkedin.com/in/sven-notermans" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
