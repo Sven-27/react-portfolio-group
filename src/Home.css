@@ -5,10 +5,11 @@
 /* https://images.unsplash.com/photo-1416163026265-0bc340a710e4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxfGJvOGpRS1RhRTBZfHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60 */
 /* https://images.unsplash.com/photo-1603924382237-7c51849f0eab?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDU3fGhtZW52UWhVbXhNfHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60 */
 /* https://images.unsplash.com/photo-1480506132288-68f7705954bd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzNHxKOXlyUGFIWFJRWXx8ZW58MHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60 */
-
+/* https://images.unsplash.com/photo-1573506714686-543fcd1ed5a6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODR8fGF1cm9yYXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60 */
+/* https://images.unsplash.com/photo-1507753739669-330cc2f77626?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fG5vcnRoZXJuJTIwbGlnaHR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60 */
 
 .home {
-    background-image: url("https://images.unsplash.com/photo-1416163026265-0bc340a710e4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxfGJvOGpRS1RhRTBZfHxlbnwwfHx8&auto=format&fit=crop&w=500&q=60");
+    background-image: url("https://images.unsplash.com/photo-1502657877623-f66bf489d236?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzV8fHN0YXIlMjBza3l8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -21,8 +22,8 @@
 
 .home__content .home__imageProfile {
     background: url(images/sven-6.png);
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 150px;
+    min-height: 150px;
     border-radius: 50%;
     background-size: cover;
     background-position: center;
@@ -37,7 +38,6 @@
     }
 }
 
-
 .home__content {
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
 }
 
 .home__content h1 {
-    color: #fff;
+    color: #abb2b9;
     font-size: 4rem;
     margin-top: 20px;
 }
@@ -55,9 +55,97 @@
 .home__content h1 span {
     max-width: 60%;
     font-size: 5rem;
-    color: yellow;
+    color: #fff;
     font-weight: 700;
     text-align: center;
+}
+
+.home__content p {
+    text-align: center;
+    max-width: 70%;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: #abb2b9;
+    padding-top: 10px;
+}
+
+.home__icons {
+    width: 100%;
+    display: flex;
+    flex: 0.5;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-top: 80px;
+}
+
+.home__icons .MuiSvgIcon-root {
+    color: #f5f5f5dc;
+    width: 3rem;
+    height: auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.home__icons .MuiSvgIcon-root:hover {
+    color: #abb2b9;
+    transform: scale(1.2);
+}
+
+.home__container {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: center;
+    background-color: transparent;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    margin-left: 20px;
+     width: 100%;
+   height: 60px;
+    z-index: 10;
+}
+.home__home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home__home ul{
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home__home a {
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #808b96;
+    display: flex;  
+}
+
+.home__home  a:hover {
+    color: #abb2b9;
+}
+
+.home__home .active{
+    color: #abb2b9;
+}
+
+.home__buttons {
+    padding-right: 20px;
+}
+
+.home__buttons ul {
+    margin: 0 !important;
+}
+
+.home__buttons ul li {
+    display: inline-block;
+    margin: 5px;
+
 }
 
 @media(max-width: 768px) {
@@ -76,39 +164,3 @@
         justify-content: center;
     }
 }
-
-.home__content p {
-    text-align: center;
-    max-width: 70%;
-    font-size: 1.2rem;
-    color: rgba(245, 245, 245, 0.863);
-    padding-top: 10px;
-}
-
-.home__icons {
-    width: 100%;
-    display: flex;
-    flex: 0.5;
-    justify-content: space-between;
-    max-width: 500px;
-    margin-top: 80px;
-}
-
-.home__icons .MuiSvgIcon-root {
-    color: rgba(245, 245, 245, 0.863);
-    width: 3rem;
-    height: auto;
-    transition: all 0.2s ease-in-out;
-}
-
-.home__icons .MuiSvgIcon-root:hover {
-    color: #ffffff;
-    transform: scale(1.1);
-}
-
-
-
-/* .home__type{
-    position: absolute;
-} */
-
