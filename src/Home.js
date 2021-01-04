@@ -36,7 +36,6 @@ function Home() {
                     <li onClick={() => setActiveState("about")}><a className={activeState === 'about' ? 'home__home active' : 'home__home'} href='#about'  >About</a></li>
                     <li onClick={() => setActiveState("projects")}><a className={activeState === 'projects' ? 'home__home active' : 'home__home'} href='#projects' >Projects</a></li>
                     <li onClick={() => setActiveState("skills")}><a className={activeState === 'skills' ? 'home__home active' : 'home__home'} href='#skills'  >Skills</a></li>
-                    <li onClick={() => setActiveState("testimonial")}><a className={activeState === 'testimonial' ? 'home__home active' : 'home__home'} href='#testimonial'  >Testimonial</a></li>
                     <li onClick={() => setActiveState("contact")}><a className={activeState === 'contact' ? 'home__home active' : 'home__home'} href='#contact'>Contact</a></li>
                     <li onClick={() => setActiveState("footer")}><a className={activeState === 'footer' ? 'home__home active' : 'home__home'} href='#footer' >Footer</a></li>
                  </ul>

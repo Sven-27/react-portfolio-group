@@ -16,10 +16,6 @@ function About() {
 				<h4>Fullstack developer</h4>					
 				<p>
 					I am a driven Fullstack developer who always aims for the best results.
-				{/* Met veel plezier heb ik een sterk fundament gelegd om als front end
-				developer van toegevoegde waarde te zijn in het bedrijfsleven, en
-				kijk ik ernaar uit om mij verder te ontwikkelen tot full stack
-				developer. */}
 				</p>
 				<div className="about__resume">
 						<a
