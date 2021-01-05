@@ -1,67 +1,94 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-  }
-  html {
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.mobile__button {
+  visibility: hidden;
+}
+
+.app {
+  position: relative;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #fbfd7c;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bfb908;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #e082f3;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+@media screen and (max-width: 671px) {
+  .home__buttons {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(128, 128, 128);
+    padding: 0 !important;
   }
 
-  .mobile__button{
-    visibility: hidden;
-  }
-
-  .app {
-    position: relative;
-    min-height: 100vh;
-  }
-
-  @media screen and (max-width: 671px){
-    .home__buttons {
-     position: absolute;
-     top: 70px;
-     left: 0;
-     z-index: 10;
-     width: 100%;
-     text-align: center;
-     background-color: rgb(128,128,128);
-     padding: 0 !important;
-   
-    }
-  
-  ul{
+  ul {
     display: flex;
     flex-direction: column;
-    width: 10
+    width: 10;
   }
 
+  .home__active {
+    display: inline-block !important;
+    width: 90% !important;
+  }
 
-   .home__active {
-      display: inline-block !important;
-      width: 90% !important;
-      
-    }
+  .home__style {
+    display: inline-block;
+    width: 80%;
+  }
 
-    .home__style {
-      display: inline-block;
-      width: 80%;
-    }
-    
-     .home__buttons.hide{
-      display: none;
-    }
+  .home__buttons.hide {
+    display: none;
+  }
 
-    .home__buttons ul li{
-      display: block !important;
-    }
+  .home__buttons ul li {
+    display: block !important;
+  }
 
-    .mobile__button {
-      visibility: visible;
-      position: absolute;
-      right: 20px;
-    }
-    
-  } 
-    
-
- 
+  .mobile__button {
+    visibility: visible;
+    position: absolute;
+    right: 20px;
+  }
+}
