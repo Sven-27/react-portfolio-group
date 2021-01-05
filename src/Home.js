@@ -5,6 +5,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import { Link } from 'react-router-dom'
 // eslint-disable-next-line
 // import Typing from './Typing';
 
@@ -27,6 +28,7 @@ function Home() {
             }, [])
 
     return (
+     
         <div ref={homePage} className="home">
         <header className="home__container">
         <div className="home__home" id="div" >
