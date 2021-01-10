@@ -25,6 +25,8 @@ function ContactForm() {
                 <button type="submit" className="btn btn-lg btn-dark btn-block">Submit Form</button>
             </form>
         </div>
+
+        {/* Footer Component */}
         <div className="footer">
 
             <div className="back__totop">
