@@ -34,12 +34,12 @@ function About() {
 					<h4>Contact details</h4>
 					<span>
 						Sven Notermans
-						<br />
+						{/* <br />
 						Sportstraat 8
 						<br />
-						6361 XC  Nuth Netherlands
+						6361 XC  Nuth Netherlands */}
 						<br />
-						+31-6-10 31 64 36
+						+31 6 10 31 64 36
 						<br />
 						coding.with.sven@gmail.com
 					</span>

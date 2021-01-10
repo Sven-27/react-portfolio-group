@@ -3,9 +3,9 @@
     box-sizing: border-box;
     padding: 0;
   }
-  html {
+  /* html {
     scroll-behavior: smooth;
-  }
+  } */
 
   .mobile__button{
     visibility: hidden;

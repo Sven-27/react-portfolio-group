@@ -4,7 +4,7 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <section className="projects__section">
+    <section className="projects">
       <div className="projects__main-container">
         <div className="projects__wrapper">
           <div className="projects__overlay img-1">

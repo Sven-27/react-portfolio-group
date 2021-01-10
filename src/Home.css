@@ -107,7 +107,7 @@ body::-webkit-scrollbar{
 .home__container {
     display: flex;
     justify-content: center;
-    /* background-color: #000; */
+    background-color: #000;
     align-items: center;
     position: fixed;
     top: 0;
