@@ -22,29 +22,30 @@ function Home() {
           <div className={buttonState ? "home__buttons hide" : "home__buttons"}>
             <ul onClick={hideMobileMenu}>
               <li>
-              <Link activeClass="active" to="home" spy={true} smooth={true} duration={1000}>
-          Home
-        </Link>
+              <Link activeClass="active" to="home" 
+              spy={true} smooth={true} duration={1000}>
+                 Home
+               </Link>
            </li>
-              <li>
-              <Link activeClass="active" to="about" spy={true} smooth={true} duration={1000}>
-         About
-        </Link>
+            <li>
+              <Link activeClass="active" to="about" spy={true} smooth={true} offset={2} duration={800}>
+                 About
+              </Link>
            </li>
-              <li>
-              <Link activeClass="active" to="projects" spy={true} smooth={true} duration={1000}>
-          Projects
-        </Link>
+            <li>
+              <Link activeClass="active" to="projects" spy={true} smooth={true} offset={2} duration={800}>
+                Projects
+              </Link>
            </li>
-              <li>
-              <Link activeClass="active" to="skills" spy={true} smooth={true} duration={1000}>
-         Skills
-        </Link>
-           </li>
-              <li>
-              <Link activeClass="active" to="contactForm" spy={true} smooth={true} duration={1000}>
-          Contact
-        </Link>
+            <li>
+              <Link activeClass="active" to="skills" spy={true} smooth={true} offset={2} duration={800}>
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" to="contactForm" spy={true} smooth={true} offset={20} duration={800}>
+                Contact
+               </Link>
            </li>
             </ul>
           </div>
@@ -70,30 +71,22 @@ function Home() {
         <div className='home__icons'>
           <a
             href='https://www.linkedin.com/in/sven-notermans'
-            target='_blank'
-            rel='noreferrer'
-          >
+            target='_blank' rel='noreferrer'>
             <LinkedInIcon />
           </a>
           <a
             href='https://www.facebook.com/Svengebon'
-            target='_blank'
-            rel='noreferrer'
-          >
+            target='_blank' rel='noreferrer'>
             <FacebookIcon />
           </a>
           <a
             href='https://www.instagram.com/svennie_27/'
-            target='_blank'
-            rel='noreferrer'
-          >
+            target='_blank' rel='noreferrer'>
             <InstagramIcon />
           </a>
           <a
             href='https://twitter.com/Sven__27'
-            target='_blank'
-            rel='noreferrer'
-          >
+            target='_blank' rel='noreferrer'>
             <TwitterIcon />
           </a>
         </div>
