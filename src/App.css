@@ -3,17 +3,17 @@
     box-sizing: border-box;
     padding: 0;
   }
-  /* html {
-    scroll-behavior: smooth;
-  } */
 
+  /* hide scrollbar on firefox */
+  :root{ scrollbar-width: none !important;}
+
+  /* this is for chrome */
+  body::-webkit-scrollbar{
+      display: none;
+  }
+  
   .mobile__button{
     visibility: hidden;
-  }
-
-  .app {
-    position: relative;
-    min-height: 100vh;
   }
 
   @media screen and (max-width: 671px){
@@ -28,13 +28,6 @@
      padding: 0 !important;
     }
   
-  /* ul{
-    display: flex;
-    flex-direction: column;
-    width: 10
-  } */
-
-
    .home__active {
       display: inline-block !important;
       width: 90% !important;

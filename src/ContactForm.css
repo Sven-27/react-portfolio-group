@@ -12,7 +12,7 @@
 }
 
 .container h1{
-    margin-top: 10px;
+    margin-top: 30px;
     color: #01ffc5;
 }
 
@@ -99,7 +99,7 @@ a:hover {
     background-color: #232f3e;
     background-color: #808080;
     font-size: 16px;
-    padding-top: 16px;
+    /* padding-top: 8px; */
     padding-left: 18px;
     padding-right: 18px;
     padding-bottom: 8px;

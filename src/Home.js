@@ -22,28 +22,28 @@ function Home() {
           <div className={buttonState ? "home__buttons hide" : "home__buttons"}>
             <ul onClick={hideMobileMenu}>
               <li>
-              <Link activeClass="active" to="home" 
+              <Link activeClass="active" className="home__btn" to="home" 
               spy={true} smooth={true} duration={1000}>
                  Home
                </Link>
            </li>
             <li>
-              <Link activeClass="active" to="about" spy={true} smooth={true} offset={2} duration={800}>
+              <Link activeClass="active" className="home__btn"  to="about" spy={true} smooth={true} offset={2} duration={800}>
                  About
               </Link>
            </li>
             <li>
-              <Link activeClass="active" to="projects" spy={true} smooth={true} offset={2} duration={800}>
+              <Link activeClass="active" className="home__btn" to="projects" spy={true} smooth={true} offset={2} duration={800}>
                 Projects
               </Link>
            </li>
             <li>
-              <Link activeClass="active" to="skills" spy={true} smooth={true} offset={2} duration={800}>
+              <Link activeClass="active" className="home__btn" to="skills" spy={true} smooth={true} offset={2} duration={800}>
                 Skills
               </Link>
             </li>
             <li>
-              <Link activeClass="active" to="contactForm" spy={true} smooth={true} offset={20} duration={800}>
+              <Link activeClass="active" className="home__btn" to="contactForm" spy={true} smooth={true} offset={20} duration={800}>
                 Contact
                </Link>
            </li>

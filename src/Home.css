@@ -9,14 +9,6 @@
 /* https://images.unsplash.com/photo-1507753739669-330cc2f77626?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fG5vcnRoZXJuJTIwbGlnaHR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60 */
 /* https://images.unsplash.com/photo-1502657877623-f66bf489d236?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzV8fHN0YXIlMjBza3l8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60 */
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body::-webkit-scrollbar{
-    display: none;
-}
 
 .home{
     background-image: url("https://images.unsplash.com/photo-1587465511660-05c929e0e874?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDR8fGJsYWNrJTIwYW5kJTIwd2hpdGUlMjBhYnN0cmFja3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
@@ -39,8 +31,8 @@ body::-webkit-scrollbar{
     background-position: center;
     object-fit: contain;
     display: flex;
-    margin-top: 100px;
-    z-index: 100;
+    margin-top: 100px; 
+   
 }
 
 @media(max-width: 768px){
@@ -56,7 +48,6 @@ body::-webkit-scrollbar{
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    z-index: 20;
 }
 
 .home__content h1 {
@@ -107,42 +98,38 @@ body::-webkit-scrollbar{
 .home__container {
     display: flex;
     justify-content: center;
-    /* background-color: #000; */
-    align-items: center;
+    background-color: #000;
     position: fixed;
     top: 0;
+    left: 0;
      width: 100%;
-     height: 60px;
-    
+     height: 50px;
 }
 .home__home {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-   
+
 }
 
 .home__home ul{
     display: flex;
-    align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    z-index: 20;
+    list-style-type: none;
 }
 
-.home__home a {
+.home__home .home__btn {
     padding: 0 10px;
     font-size: 14px;
     font-weight: 700;
     color: #01ffc5;
-    display: flex;  
-    opacity: 1;
     
 }
 
-.home__home  a:hover {
+.home__home .home__btn:hover {
     text-decoration: none;
     color: #00af87 ;
+    cursor: pointer;
 }
 
 .home__home .active{
@@ -162,7 +149,6 @@ body::-webkit-scrollbar{
 .home__buttons ul li {
     display: inline-block;
     margin: 5px;
-    z-index: 50;
 }
 
 @media(max-width: 768px) {

@@ -12,10 +12,10 @@ function ContactForm() {
                 <div className="form-group">
                     <div className="form-row">
                         <div className="col">
-                            <input type="text" name="contactname" className="form-control" placeholder="Full Name" autoComplete="{false}" required />
+                            <input type="text" name="contactname" className="form-control form-input" placeholder="Full Name" autoComplete="{false}" required />
                         </div>
                         <div className="col">
-                            <input type="email" name="email" className="form-control" placeholder="Email Address" required />
+                            <input type="email" name="email" className="form-control form-input" placeholder="Email Address" required />
                         </div>
                     </div>
                 </div>
