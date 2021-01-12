@@ -1,9 +1,8 @@
-import React from 'react'
-import { SkillBars } from 'react-skills';
-import './Skills.css'
+import React from "react";
+import { SkillBars } from "react-skills";
+import "./Skills.css";
 
 function Skills() {
-
   const flat = false;
 
   const levelProgress = false;
@@ -16,40 +15,33 @@ function Skills() {
 
   const skillsData = [
     {
-      name: 'React JS',
+      name: "React JS",
       level: 100,
-      color: 'orange',
-
+      color: "orange",
     },
     {
-      name: 'CSS 3',
+      name: "CSS 3",
       level: 55,
-      color: 'red',
+      color: "red",
     },
-  ]
+  ];
 
   return (
-    <div className="skills">
-    <div className="skills__container d-flex flex-column align-items-center justify-content-center">
-
-      <div className="skillBars__container ">
-
-        <SkillBars
-
-          skills={skillsData}
-          flat={flat}
-          levelProgress={levelProgress}
-          duration={duration}
-          labelsWidth={labelWidth}
-          barsHeight={height}
-
-        />
-
-      </div>
+    <div className='skills' style={{ backgroundColor: "#77dde7" }}>
+      <div className='skills__container d-flex flex-column align-items-center justify-content-center'>
+        <div className='skillBars__container '>
+          <SkillBars
+            skills={skillsData}
+            flat={flat}
+            levelProgress={levelProgress}
+            duration={duration}
+            labelsWidth={labelWidth}
+            barsHeight={height}
+          />
+        </div>
       </div>
     </div>
-  )
-
+  );
 }
 
-export default Skills
+export default Skills;

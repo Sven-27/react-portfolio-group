@@ -49,73 +49,55 @@ function Home({ scrollToPane, scrollToBottom, scrollActive }) {
         <div className='home__home' id='div'>
           <div className={buttonState ? "home__buttons hide" : "home__buttons"}>
             <ul onClick={hideMobileMenu}>
-              <li onClick={() => test("home", 0)}>
-                <a
-                  className={
-                    activeState === "home" ? "home__home active" : "home__home"
-                  }
-                  href='#home'
-                >
-                  Home
-                </a>
+              <li
+                className={
+                  activeState === "home" ? "home__home active" : "home__home"
+                }
+                onClick={() => test("home", 0)}
+              >
+                Home
               </li>
-              <li onClick={() => test("about", 1)}>
-                <a
-                  className={
-                    activeState === "about" ? "home__home active" : "home__home"
-                  }
-                  href='#about'
-                >
-                  About
-                </a>
+              <li
+                className={
+                  activeState === "about" ? "home__home active" : "home__home"
+                }
+                onClick={() => test("about", 1)}
+              >
+                About
               </li>
-              <li onClick={() => test("projects", 2)}>
-                <a
-                  className={
-                    activeState === "projects"
-                      ? "home__home active"
-                      : "home__home"
-                  }
-                  href='#projects'
-                >
-                  Projects
-                </a>
+              <li
+                className={
+                  activeState === "projects"
+                    ? "home__home active"
+                    : "home__home"
+                }
+                onClick={() => test("projects", 2)}
+              >
+                Projects
               </li>
-              <li onClick={() => test("skills", 3)}>
-                <a
-                  className={
-                    activeState === "skills"
-                      ? "home__home active"
-                      : "home__home"
-                  }
-                  href='#skills'
-                >
-                  Skills
-                </a>
+              <li
+                className={
+                  activeState === "skills" ? "home__home active" : "home__home"
+                }
+                onClick={() => test("skills", 3)}
+              >
+                Skills
               </li>
-              <li onClick={() => test("contact", 4)}>
-                <a
-                  className={
-                    activeState === "contact"
-                      ? "home__home active"
-                      : "home__home"
-                  }
-                  href='#contact'
-                >
-                  Contact
-                </a>
+              <li
+                className={
+                  activeState === "contact" ? "home__home active" : "home__home"
+                }
+                onClick={() => test("contact", 4)}
+              >
+                Contact
               </li>
-              <li onClick={scrollToBottom}>
-                <a
-                  className={
-                    activeState === "footer"
-                      ? "home__home active"
-                      : "home__home"
-                  }
-                  href='#footer'
-                >
-                  Footer
-                </a>
+              <li
+                className={
+                  activeState === "footer" ? "home__home active" : "home__home"
+                }
+                onClick={scrollToBottom}
+              >
+                Info
               </li>
             </ul>
           </div>

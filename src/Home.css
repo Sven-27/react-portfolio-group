@@ -141,6 +141,10 @@
 }
 
 .home__buttons ul li {
+  cursor: pointer;
+}
+
+.home__buttons ul li {
   display: inline-block;
   margin: 5px;
 }
