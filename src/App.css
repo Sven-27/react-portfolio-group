@@ -38,9 +38,19 @@
       display: inline-block;
       width: 80%;
     }
+
+    .home__buttons{
+      display: flex;
+      justify-content: center;
+    }
     
-     .home__buttons.hide{
+     .home__buttons.hidden{
       display: none;
+    }
+
+    .home__buttons ul{
+      display: flex;
+      flex-direction: column;
     }
 
     .home__buttons ul li{
@@ -51,6 +61,7 @@
       visibility: visible;
       position: absolute;
       right: 20px;
+      color: #00af87 ; 
     }
     
   } 

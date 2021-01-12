@@ -115,7 +115,7 @@
 .home__home ul{
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    list-style-type: none;
+    list-style: none;
 }
 
 .home__home .home__btn {
@@ -143,7 +143,7 @@
 
 .home__buttons ul {
     margin: 0 !important;
-    
+    display: flex;
 }
 
 .home__buttons ul li {

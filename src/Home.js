@@ -19,7 +19,7 @@ function Home() {
     <div  className='home'>
       <header className='home__container'>
         <div className='home__home' id='div'>
-          <div className={buttonState ? "home__buttons hide" : "home__buttons"}>
+          <div className={buttonState ? "home__buttons hidden" : "home__buttons"}>
             <ul onClick={hideMobileMenu}>
               <li>
               <Link activeClass="active" className="home__btn" to="home" 
