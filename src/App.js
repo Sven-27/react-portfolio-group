@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from "./Home";
-import Projects from './projects'
+import Projects from './Projects'
 import Skills from "./Skills";
 import ContactForm from "./ContactForm";
 import About from "./About";
