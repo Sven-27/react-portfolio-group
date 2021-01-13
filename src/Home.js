@@ -9,6 +9,7 @@ import TwitterIcon from "@material-ui/icons/Twitter";
 function Home() {
   const [buttonState, setbuttonState] = useState(true);
 
+
   const hideMobileMenu = () => {
     if (window.innerWidth < 672) {
       setbuttonState(true);
@@ -20,30 +21,30 @@ function Home() {
       <header className='home__container'>
         <div className='home__home' id='div'>
           <div className={buttonState ? "home__buttons hidden" : "home__buttons"}>
-            <ul onClick={hideMobileMenu}>
-              <li>
-              <Link activeClass="active" className="home__btn" to="home" 
+            <ul >
+              <li  >
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="home" 
               spy={true} smooth={true} duration={1000}>
                  Home
                </Link>
            </li>
-            <li>
-              <Link activeClass="active" className="home__btn"  to="about" spy={true} smooth={true} offset={2} duration={800}>
+            <li >
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn"  to="about" spy={true} smooth={true} offset={2} duration={800}>
                  About
               </Link>
            </li>
             <li>
-              <Link activeClass="active" className="home__btn" to="projects" spy={true} smooth={true} offset={2} duration={800}>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="projects" spy={true} smooth={true} offset={2} duration={800}>
                 Projects
               </Link>
            </li>
             <li>
-              <Link activeClass="active" className="home__btn" to="skills" spy={true} smooth={true} offset={2} duration={800}>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="skills" spy={true} smooth={true} offset={2} duration={800}>
                 Skills
               </Link>
             </li>
             <li>
-              <Link activeClass="active" className="home__btn" to="contactForm" spy={true} smooth={true} offset={20} duration={800}>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="contactForm" spy={true} smooth={true} offset={20} duration={800}>
                 Contact
                </Link>
            </li>
