@@ -3,15 +3,15 @@ import "./Home.css";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import InstagramIcon from "@material-ui/icons/Instagram";
-import { Link  } from 'react-scroll'
 import TwitterIcon from "@material-ui/icons/Twitter";
+import { Link  } from 'react-scroll'
 
 function Home() {
   const [buttonState, setbuttonState] = useState(true);
 
 
   const hideMobileMenu = () => {
-    if (window.innerWidth < 672) {
+    if (window.innerWidth < 427) {
       setbuttonState(true);
     }
   };
@@ -39,15 +39,20 @@ function Home() {
               </Link>
            </li>
             <li>
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="skills" spy={true} smooth={true} offset={2} duration={800}>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="skills" spy={true} smooth={true} offset={1} duration={800}>
                 Skills
               </Link>
             </li>
             <li>
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="contactForm" spy={true} smooth={true} offset={20} duration={800}>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="contactForm" spy={true} smooth={true} offset={0} duration={800}>
                 Contact
                </Link>
            </li>
+            {/* <li>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="footer" spy={true} smooth={true} offset={2500} duration={800}>
+                Footer
+               </Link>
+           </li> */}
             </ul>
           </div>
 

@@ -35,13 +35,6 @@
    
 }
 
-@media(max-width: 768px){
-    .home__content .home__imageProfile{
-        min-width: 100px;
-        min-height: 100px;
-    }
-}
-
 .home__content {
     display: flex;
     flex-direction: column;
@@ -152,6 +145,7 @@
     margin: 5px;
 }
 
+/* Media queries Portrait view*/
 @media(max-width: 768px) {
     .home__content h1 {
         display: flex;
@@ -159,12 +153,51 @@
         align-items: center;
         font-size: 2.5rem;
     }
-}
-
-@media(max-width: 768px) {
     .home__content h1 span {
         font-size: 3.5rem;
         display: flex;
         justify-content: center;
     }
+    .home__content .home__imageProfile{
+        min-width: 100px;
+        min-height: 100px;
+    }
 }
+
+/* Landscape view */
+@media(max-height: 376px){
+    .home__content{
+        display: flex;
+        width: 100%;
+    }
+    .home__content .home__imageProfile{
+        display: none;
+    }
+    .home__content h1{
+        margin-top: 70px;
+        font-size: 2rem;
+    }
+
+    .home__content h1 span{
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    .home__icons{
+        margin: 15px 0;
+    }
+}
+
+@media(max-height: 415px){
+    .home__content .home__imageProfile{
+        display: none;
+    }
+
+    .home__content h1{
+        margin-top: 20px;
+    }
+    .home__icons{
+        margin-top: 10px;
+    }
+}
+

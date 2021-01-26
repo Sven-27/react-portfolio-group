@@ -7,6 +7,10 @@
   /* hide scrollbar on firefox */
   :root{ scrollbar-width: none !important;}
 
+  /* body{
+    font-family: 'Dosis', sans-serif;
+  } */
+
   /* this is for chrome */
   body::-webkit-scrollbar{
       display: none;
@@ -16,7 +20,7 @@
     visibility: hidden;
   }
 
-  @media screen and (max-width: 671px){
+  @media screen and (max-width: 426px){
     .home__buttons {
      position: absolute;
      top: 70px;

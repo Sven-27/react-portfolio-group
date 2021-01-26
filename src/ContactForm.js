@@ -1,5 +1,11 @@
 import React from 'react'
 import './ContactForm.css'
+import FacebookIcon from "@material-ui/icons/Facebook";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
+import EmailIcon from '@material-ui/icons/Email';
 
 function ContactForm() {
     return (
@@ -26,58 +32,42 @@ function ContactForm() {
             </form>
         </div>
 
+
         {/* Footer Component */}
-        <div className="footer">
-
-            <div className="back__totop">
-                {/* <a href='#top'><h4>Back to Top</h4></a> */}
+        <footer className="footer">
+            <div className="footer__container">
+                <div className="footer__left">
+                    {/* <h3>Sven Notermans</h3> */}
+                    <h5><EmailIcon /> coding.with.sven@gmail.com | <PhoneAndroidIcon />+31 (0) 6 10 31 64 36</h5> 
+                </div>
+                <div className="footer__center">
+                      <p>COPYRIGHT &copy; 2021</p>
+                </div>
+                <div className="footer__right">
+                    <a
+                    href='https://www.linkedin.com/in/sven-notermans'
+                    target='_blank' rel='noreferrer'>
+                    <LinkedInIcon />
+                     </a>
+                     <a
+                    href='https://www.facebook.com/Svengebon'
+                    target='_blank' rel='noreferrer'>
+                    <FacebookIcon />
+                     </a>
+                    <a
+                    href='https://www.instagram.com/svennie_27/'
+                    target='_blank' rel='noreferrer'>
+                    <InstagramIcon />
+                    </a>
+                     <a
+                    href='https://twitter.com/Sven__27'
+                    target='_blank' rel='noreferrer'>
+                    <TwitterIcon />
+                    </a>
+                </div>
             </div>
+        </footer>
 
-            <div className="footer__links__container">
-
-                <div className="links__container">
-                    <h3 className="footer__links__head">Links</h3>
-                    <div className="links_part1">
-                        <div>
-                            <a className="footer__links__nav" alt="" href="#">Home</a>
-                            <a className="footer__links__nav" alt="" href="#">Contact</a>
-                            <a className="footer__links__nav" alt="" href="#">Projects</a>
-                            <a className="footer__links__nav" alt="" href="#">Blog</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="links__container">
-                    <h3 className="footer__links__head">Learn From Me</h3>
-                    <a className="footer__links__nav" alt="" href="#">Consulting</a>
-                    <a className="footer__links__nav" alt="" href="#">Coaching</a>
-                    <a className="footer__links__nav" alt="" href="#">Freelance Projects</a>
-
-                </div>
-
-                <div className="links__container">
-                    <h3 className="footer__links__head">My Favorite Resources</h3>
-                    <a className="footer__links__nav" alt="" href="#">VS Code</a>
-                    <a className="footer__links__nav" alt="" href="#">ReactJS</a>
-                    <a className="footer__links__nav" alt="" href="#">Font Awesome</a>
-                    <a className="footer__links__nav" alt="" href="#">Bootstrap</a>
-                </div>
-
-                <div className="links__container">
-                    <h3 className="footer__links__head">Let Me Help You</h3>
-                    <a className="footer__links__nav" alt="" href="#">Contact Me</a>
-                    <a className="footer__links__nav" alt="" href="#">Your Account</a>
-                    <a className="footer__links__nav" alt="" href="#">Your Orders</a>
-                    <a className="footer__links__nav" alt="" href="#">Rates & Policies</a>
-                </div>
-
-            </div>
-
-            <div className="footer__logo__container">
-                <img className="footer__logo" alt="" src="./footer_logo.png" />
-            </div>
-
-        </div>
         </div>
     )
 }

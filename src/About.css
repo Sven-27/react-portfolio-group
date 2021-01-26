@@ -20,14 +20,6 @@
 	margin-top: 30px;
 }
 
-@media (max-width: 768px){
-	.about__details{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-}
-
 .about__text{
 	width: 100%;
 	flex: .5;
@@ -50,19 +42,14 @@
 
 .about__address > span{
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	text-align: center;
 	color: #01ffc5;
 }
 
 .about__info{
 	flex: 0.5;
-}
-
-@media (max-width: 768px){
-	.about__info{
-		margin-top: 20px;
-	}
 }
 
 .about__resume{
@@ -90,6 +77,39 @@
 .btn-color {
 	background-color: #000;
 	color: #01ffc5;
+}
+
+/* media queries */
+@media (max-width: 768px){
+	.about__info{
+		margin-top: 20px;
+	}
+	.about__details{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media(max-height: 376px){
+	.about__details{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-top: 10px;
+	}
+	.about__details h4{
+		margin: 0;
+	}
+	.about__details p{
+		margin: 10px;
+		text-align: center;
+	}
+	.about__info h4{
+		margin-top: -45px;
+		margin-bottom: 8px;
+	}
+
 }
 
 

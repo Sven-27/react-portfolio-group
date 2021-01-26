@@ -1,52 +1,45 @@
 import React from 'react'
-import { SkillBars } from 'react-skills';
 import './Skills.css'
+import SkillBar from 'react-skillbars';
 
 function Skills() {
-
-  const flat = false;
-
-  const levelProgress = false;
-
-  const duration = 5;
-
-  const labelWidth = 250;
-
-  const height = 100;
-
-  const skillsData = [
-    {
-      name: 'React JS',
-      level: 100,
-      color: 'orange',
-
+const skills = [
+  {type: "HTML5", level: "90"},
+  {type: "CSS3", level: "85"},
+  {type: "Javascript", level: "65"},
+  {type: "React", level: "50"},
+  {type: "Sass", level: "65"},
+  {type: "Bootstrap", level: "75"},
+  {type: "Node.js", level: "60"},
+]
+const colors = {
+  bar: '#fffaaa',
+  title: {
+    text: {
+      hue: {
+        minimum: 30,
+        maximum: 150
+      },
+      saturation: 50,
+      level: {
+        minimum: 30,
+        maximum: 90
+      }
     },
-    {
-      name: 'CSS 3',
-      level: 55,
-      color: 'red',
-    },
-  ]
+    background: {
+      hue: 20,
+      saturation:50,
+      level:30
+    }
+  }
+}
 
   return (
     <div className="skills">
-    <div className="skills__container d-flex flex-column align-items-center justify-content-center">
-
-      <div className="skillBars__container ">
-
-        <SkillBars
-
-          skills={skillsData}
-          flat={flat}
-          levelProgress={levelProgress}
-          duration={duration}
-          labelsWidth={labelWidth}
-          barsHeight={height}
-
-        />
-
+      <div className="skills__container">
+      <SkillBar skills={skills} colors={colors} height={20} />
       </div>
-      </div>
+        
     </div>
   )
 
