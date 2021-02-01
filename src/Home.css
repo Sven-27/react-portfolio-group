@@ -91,7 +91,7 @@
 .home__container {
     display: flex;
     justify-content: center;
-    background-color: #000;
+    background-color: #111;
     position: fixed;
     top: 0;
     left: 0;

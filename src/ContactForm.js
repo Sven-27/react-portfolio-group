@@ -10,11 +10,11 @@ import EmailIcon from '@material-ui/icons/Email';
 function ContactForm() {
     return (
         <div className="contactForm">
-        <div className="container d-flex flex-column align-items-center justify-content-center mt-6">
+        <div className="container d-flex flex-column align-items-center justify-content-center ">
             
             <h1>Contact form</h1>
 
-            <form id="form" target="_blank" action="https://formsubmit.co/coding.with.sven@gmail.com" method="POST" className="m-auto col-sm-12 col-md-8 col-lg-5 m-lg-0"  >
+            <form id="form" target="_blank" action="https://formsubmit.co/coding.with.sven@gmail.com" method="POST" className=""  >
                 <div className="form-group">
                     <div className="form-row">
                         <div className="col">
@@ -25,8 +25,9 @@ function ContactForm() {
                         </div>
                     </div>
                 </div>
-                <div className="form-group">
-                    <textarea placeholder="Your Message" className="form-control" name="message" rows="10" required></textarea>
+                <div className="form-group form-textarea">
+                    <textarea placeholder="Your Message" rows="14" className="form-control" name="message"
+                    required></textarea>
                 </div>
                 <button type="submit" className="btn btn-lg btn-dark btn-block">Submit Form</button>
             </form>
@@ -37,7 +38,6 @@ function ContactForm() {
         <footer className="footer">
             <div className="footer__container">
                 <div className="footer__left">
-                    {/* <h3>Sven Notermans</h3> */}
                     <h5><EmailIcon /> coding.with.sven@gmail.com | <PhoneAndroidIcon />+31 (0) 6 10 31 64 36</h5> 
                 </div>
                 <div className="footer__center">

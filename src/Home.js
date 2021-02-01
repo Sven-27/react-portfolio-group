@@ -24,35 +24,30 @@ function Home() {
             <ul >
               <li  >
               <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="home" 
-              spy={true} smooth={true} duration={1000}>
+              spy={true} smooth={true} duration={800}>
                  Home
                </Link>
            </li>
             <li >
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn"  to="about" spy={true} smooth={true} offset={2} duration={800}>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn"  to="about" spy={true}  smooth={true} duration={800}>
                  About
               </Link>
            </li>
             <li>
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="projects" spy={true} smooth={true} offset={2} duration={800}>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="projects" spy={true} smooth={true} duration={800}>
                 Projects
               </Link>
            </li>
             <li>
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="skills" spy={true} smooth={true} offset={1} duration={800}>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="skills" spy={true} smooth={true} duration={800}>
                 Skills
               </Link>
             </li>
             <li>
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="contactForm" spy={true} smooth={true} offset={0} duration={800}>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="contactForm" spy={true} smooth={true} duration={800}>
                 Contact
                </Link>
            </li>
-            {/* <li>
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="footer" spy={true} smooth={true} offset={2500} duration={800}>
-                Footer
-               </Link>
-           </li> */}
             </ul>
           </div>
 

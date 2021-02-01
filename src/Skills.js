@@ -7,12 +7,12 @@ function Skills() {
   return (
     <div className="skills">
     <div className="skills__imageContainer">
-      <img className="skills__image" src="https://cdn2.iconfinder.com/data/icons/superglyph-os/30/html5-128.png" alt=""/>
-      <img className="skills__image" src="https://cdn2.iconfinder.com/data/icons/superglyph-os/30/css3-128.png" alt=""/>
-      <img className="skills__image" src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/js-128.png" alt=""/>
-      <img className="skills__image" src="https://cdn4.iconfinder.com/data/icons/vector-brand-logos/40/Bootstrap-128.png" alt=""/>
-      <img className="skills__image" src="https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/react-128.png" alt=""/>
-      <img className="skills__image" src="https://cdn4.iconfinder.com/data/icons/logos-3/455/nodejs-new-black-128.png" alt=""/>
+    <i class="fab fa-html5"></i>
+    <i class="fab fa-css3-alt"></i>
+    <i class="fab fa-js-square"></i>
+    <i class="fab fa-bootstrap"></i>
+    <i class="fab fa-react"></i>
+    <i class="fab fa-node"></i>
     </div>
       <div className="skills__container">
     
@@ -22,7 +22,7 @@ function Skills() {
         </div>
         <h4>CSS3</h4>
         <div className="skills__progress">
-          <div className="skills__bar bar-2" style={{"width": '90%', "animation-name": "bar-2", "animation-duration": "3s", "animation-timing-function": "ease-in-out"}}><span>90%</span></div>
+          <div className="skills__bar bar-2" style={{"width": '95%', "animation-name": "bar-2", "animation-duration": "3s", "animation-timing-function": "ease-in-out"}}><span>95%</span></div>
         </div>
         <h4>Javascript</h4>
         <div className="skills__progress">
