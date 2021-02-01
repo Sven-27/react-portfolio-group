@@ -56,7 +56,6 @@ function Projects() {
                 </a>
               </div>
             </div>
-         
         </div>  
         </div>
     </section>

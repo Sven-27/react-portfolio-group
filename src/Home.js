@@ -6,6 +6,7 @@ import InstagramIcon from "@material-ui/icons/Instagram";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import { Link  } from 'react-scroll'
 
+
 function Home() {
   const [buttonState, setbuttonState] = useState(true);
 
@@ -15,21 +16,20 @@ function Home() {
       setbuttonState(true);
     }
   };
-
+// 
   return (
     <div  className='home'>
       <header className='home__container'>
         <div className='home__home' id='div'>
           <div className={buttonState ? "home__buttons hidden" : "home__buttons"}>
-            <ul >
-              <li  >
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="home" 
-              spy={true} smooth={true} duration={800}>
-                 Home
-               </Link>
+            <ul>
+              <li>
+                <Link  onClick={hideMobileMenu} activeClass="active" to="home" className="home__btn" spy={true} smooth={true}  duration={800}>
+              Home
+              </Link>
            </li>
             <li >
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn"  to="about" spy={true}  smooth={true} duration={800}>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn"  to="about" spy={true} smooth={true} duration={800}>
                  About
               </Link>
            </li>
@@ -44,7 +44,7 @@ function Home() {
               </Link>
             </li>
             <li>
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="contactForm" spy={true} smooth={true} duration={800}>
+              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="contactForm" spy={true} smooth={true} o duration={800}>
                 Contact
                </Link>
            </li>

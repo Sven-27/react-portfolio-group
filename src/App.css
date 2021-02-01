@@ -7,9 +7,9 @@
   /* hide scrollbar on firefox */
   :root{ scrollbar-width: none !important;}
 
-  /* body{
+  body{
     font-family: 'Dosis', sans-serif;
-  } */
+  }
 
   /* this is for chrome */
   body::-webkit-scrollbar{

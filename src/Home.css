@@ -61,7 +61,6 @@
     text-align: center;
     max-width: 70%;
     font-size: 1.6rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 800;
     color:#fff;
     padding-top: 10px;
@@ -96,7 +95,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 60px;
     z-index: 50;
 }
 .home__home {
@@ -108,16 +107,19 @@
 
 .home__home ul{
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style: none;
 }
 
-.home__home .home__btn {
+ .home__btn {
     padding: 0 10px;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: 800;
     color: #01ffc5;
     
+}
+
+[type="class"]{
+    color: #01ffc5
 }
 
 .home__home .home__btn:hover {
@@ -143,6 +145,7 @@
 .home__buttons ul li {
     display: inline-block;
     margin: 5px;
+    /* font-size: 24px; */
 }
 
 /* Media queries Portrait view*/
