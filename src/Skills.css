@@ -13,17 +13,15 @@
 .skills__imageContainer{
     height: 150px;
     width: 80%;
-    /* background: gray; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
 
  .skills__image{ 
-     /* background: url("images/react-logo.png"); */
+     color: #fff;
     width: auto;
-    height: 100px;
-    color: darkslategray
+    height: 70px;
 } 
 
  .skills__container {
@@ -31,7 +29,6 @@
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 3rem;
-    /* height: 75.7vh; */
     width: 60%;
     
 }
@@ -52,12 +49,45 @@
 
 .skills__progress .skills__bar{
     height: 100%;
-    color: #333;
+    color: #fff;
+    background: #00af87;
+    font-weight: 800;
     text-align: end;
     margin-right: 10px;
     }
 
 .skills__bar > span{
     padding: 10px;
+}
+
+/* Keyframes */
+@keyframes bar-1{
+0%{width: 0;}
+100%{width: 95%;}
+}
+
+@keyframes bar-2{
+0%{width: 0;}
+100%{width: 90%;}
+}
+
+@keyframes bar-3{
+0%{width: 0;}
+100%{width: 75%;}
+}
+
+@keyframes bar-4{
+0%{width: 0;}
+100%{width: 80%;}
+}
+
+@keyframes bar-5{
+0%{width: 0;}
+100%{width: 70%;}
+}
+
+@keyframes bar-6{
+0%{width: 0;}
+100%{width: 70%;}
 }
 

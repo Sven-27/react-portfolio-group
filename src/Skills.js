@@ -18,27 +18,27 @@ function Skills() {
     
         <h4>HTML5</h4>
         <div className="skills__progress">
-          <div className="skills__bar" style={{"width": '95%', "background": "#01ffc5"}}><span>95%</span></div>
+          <div className="skills__bar bar-1" style={{"width": '95%', "animation-name": "bar-1", "animation-duration": "3s", "animation-timing-function": "ease-in-out"}}><span>95%</span></div>
         </div>
         <h4>CSS3</h4>
         <div className="skills__progress">
-          <div className="skills__bar" style={{"width": '90%', "background": "#00af87"}}><span>90%</span></div>
+          <div className="skills__bar bar-2" style={{"width": '90%', "animation-name": "bar-2", "animation-duration": "3s", "animation-timing-function": "ease-in-out"}}><span>90%</span></div>
         </div>
         <h4>Javascript</h4>
         <div className="skills__progress">
-          <div className="skills__bar" style={{"width": '75%', "background": "#01ffc5"}}><span>75%</span></div>
+          <div className="skills__bar bar-3" style={{"width": '75%', "animation-name": "bar-3", "animation-duration": "3s", "animation-timing-function": "ease-in-out"}}><span>75%</span></div>
         </div>
         <h4>Bootstrap</h4>
         <div className="skills__progress">
-          <div className="skills__bar" style={{"width": '80%', "background": "#00af87"}}><span>80%</span></div>
+          <div className="skills__bar bar-4" style={{"width": '80%', "animation-name": "bar-4", "animation-duration": "3s", "animation-timing-function": "ease-in-out"}}><span>80%</span></div>
         </div>
         <h4>React</h4>
         <div className="skills__progress">
-          <div className="skills__bar" style={{"width": '70%', "background": "#01ffc5"}}><span>70%</span></div>
+          <div className="skills__bar bar-5" style={{"width": '70%', "animation-name": "bar-5", "animation-duration": "3s", "animation-timing-function": "ease-in-out"}}><span>70%</span></div>
         </div>
         <h4>Node.js</h4>
         <div className="skills__progress">
-          <div className="skills__bar" style={{"width": '70%', "background": "#00af87"}}><span>70%</span></div>
+          <div className="skills__bar b ar-6" style={{"width": '70%', "animation-name": "bar-6", "animation-duration": "3s", "animation-timing-function": "ease-in-out"}}><span>70%</span></div>
         </div>
       </div>
         
