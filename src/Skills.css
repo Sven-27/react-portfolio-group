@@ -1,18 +1,152 @@
-.skills{
-    background: #e5e7e9;
-    width: 100%;
-    height: 100vh;
+.skills {
+  background-color: #4d5656;
+  border-bottom: 1px dotted #000;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills__imageContainer {
+  height: 150px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.skills__image {
+  color: #fff;
+  width: auto;
+  height: 70px;
 }
 
 .skills__container {
-    padding-top: 9rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 3rem;
-    height: 75.7vh;
-
+  padding-top: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+  width: 60%;
 }
 
-.skillBars__container {
+.skills__container > h4 {
+  color: #fff;
+}
+
+.skills__progress {
+  overflow: hidden;
+  height: 25px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 0.3rem;
+  text-align: end;
+}
+
+.skills__progress .skills__bar {
+  height: 100%;
+  color: #fff;
+  background: #00af87;
+  font-weight: 800;
+  text-align: end;
+  margin-right: 10px;
+}
+
+.skills__bar > span {
+  padding: 10px;
+}
+
+.skills__bar.bar-1 {
+  animation-name: bar-1;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.skills__bar.bar-2 {
+  animation-name: bar-2;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.skills__bar.bar-3 {
+  animation-name: bar-3;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.skills__bar.bar-4 {
+  animation-name: bar-4;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.skills__bar.bar-5 {
+  animation-name: bar-5;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.skills__bar.bar-6 {
+  animation-name: bar-6;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+/* Keyframes */
+@keyframes bar-1 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes bar-2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes bar-3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+
+@keyframes bar-4 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes bar-5 {
+  0% {
+    width: 0;
+  }
+  100% {
     width: 70%;
+  }
+}
+
+@keyframes bar-6 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
 }
