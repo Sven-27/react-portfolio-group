@@ -60,6 +60,45 @@
     padding: 10px;
 }
 
+
+.skills__bar.bar-1 {
+    animation-name: bar-1;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  .skills__bar.bar-2 {
+    animation-name: bar-2;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  .skills__bar.bar-3 {
+    animation-name: bar-3;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  .skills__bar.bar-4 {
+    animation-name: bar-4;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  .skills__bar.bar-5 {
+    animation-name: bar-5;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  .skills__bar.bar-6 {
+    animation-name: bar-6;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+
 /* Keyframes */
 @keyframes bar-1{
 0%{width: 0;}
