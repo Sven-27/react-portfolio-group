@@ -1,7 +1,7 @@
 .skills{
     background-color:  #4d5656;
     border-bottom: 1px dotted #000;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,9 +20,7 @@
 
  .skills__image, .fab{ 
      color: #333;
-     font-size: 70px;
-    /* width: 70px;
-    height: 70px; */
+     font-size: 80px;
 } 
 
  .skills__container {
@@ -109,6 +107,7 @@
 0%{width: 0;}
 100%{width: 95%;}
 }
+
 
 @keyframes bar-3{
 0%{width: 0;}

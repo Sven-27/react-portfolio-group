@@ -15,7 +15,7 @@ function About() {
 			</div>
 			<div className="about__details">
 			<div className="about__text">
-				<h4>Fullstack developer</h4>					
+				<h3>Fullstack developer</h3>					
 				<p>
 					I am a driven Fullstack developer who always aims for the best results
 				</p>
@@ -33,9 +33,9 @@ function About() {
 			</div>	
 			<div className="about__info">
 			    <div className="about__address">
-					<h4>Contact details</h4>
+					<h3>Contact details</h3>
 					<span>
-						<h5>Sven Notermans</h5>
+						<h3>Sven Notermans</h3>
 						<p><PhoneAndroidIcon />+31 6 10 31 64 36 <br /> <EmailIcon /> coding.with.sven@gmail.com</p>
 						<p></p>
 					</span>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// import { useLocation } from 'react-router-dom'
 import "./Home.css";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
@@ -8,43 +9,42 @@ import { Link  } from 'react-scroll'
 
 
 function Home() {
-  const [buttonState, setbuttonState] = useState(true);
-
+  const [buttonState, setbuttonState] = useState(false);
 
   const hideMobileMenu = () => {
-    if (window.innerWidth < 427) {
+    if (window.innerWidth < 768) {
       setbuttonState(true);
     }
   };
-// 
+
   return (
     <div  className='home'>
-      <header className='home__container'>
-        <div className='home__home' id='div'>
+      <header className="home__container" >
+                <div className='home__home' id='div'>
           <div className={buttonState ? "home__buttons hidden" : "home__buttons"}>
             <ul>
               <li>
-                <Link  onClick={hideMobileMenu} activeClass="active" to="home" className="home__btn" spy={true} smooth={true}  duration={800}>
+                <Link  onClick={hideMobileMenu}  to="home" className="home__btn" spy={true} smooth={true}  duration={800}>
               Home
               </Link>
            </li>
             <li >
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn"  to="about" spy={true} smooth={true} duration={800}>
+              <Link onClick={hideMobileMenu}  className="home__btn"  to="about" spy={true}  smooth={true} offset={4} duration={800}>
                  About
               </Link>
            </li>
             <li>
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="projects" spy={true} smooth={true} duration={800}>
+              <Link onClick={hideMobileMenu}  className="home__btn" to="projects" spy={true} smooth={true} offset={3} duration={800}>
                 Projects
               </Link>
            </li>
             <li>
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="skills" spy={true} smooth={true} duration={800}>
+              <Link onClick={hideMobileMenu}  className="home__btn" to="skills" spy={true} smooth={true} offset={7} duration={800}>
                 Skills
               </Link>
             </li>
             <li>
-              <Link onClick={hideMobileMenu} activeClass="active" className="home__btn" to="contactForm" spy={true} smooth={true} o duration={800}>
+              <Link onClick={hideMobileMenu}  className="home__btn" to="contactForm"  spy={true} smooth={true} offset={11} duration={800}>
                 Contact
                </Link>
            </li>

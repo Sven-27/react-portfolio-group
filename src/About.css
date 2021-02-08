@@ -13,11 +13,12 @@
 .about__content {
 	width: 100%;
 	color: #909497;
+	font-size: 1.7rem;
 }
 
 .about__details{
 	display: flex;
-	margin-top: 30px;
+	margin-top: 1.9rem;
 }
 
 .about__text{
@@ -25,10 +26,10 @@
 	flex: .5;
 }
 
-.about__text > h4, .about__address > h4{
+.about__text > h3, .about__address > h3{
 	display: flex;
 	justify-content: center;
-	font-weight: 700;
+	font-weight: bolder;
 	color: #fff;
 } 
 
@@ -62,6 +63,9 @@
 	align-items: center;
 	outline: none !important;
 	box-shadow: none !important;
+	padding: 10px 25px;
+	font-size: 1.3rem;
+	font-weight: 700;
 }
 
 .about__resume > a > i{
