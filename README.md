@@ -1,4 +1,5 @@
 Todo:
+[https://img.shields.io/static/v1.svg?label=left&message=right&color=red]
 
 Components:
 1 Navbar done
